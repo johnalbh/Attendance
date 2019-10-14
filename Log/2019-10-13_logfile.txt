@@ -1,0 +1,10 @@
+2019-10-13 13:46:33.1281 INFO Here is info message from our values controller.
+2019-10-13 13:46:33.1904 DEBUG Here is debug message from our values controller.
+2019-10-13 13:46:33.1904 WARN Here is warn message from our values controller.
+2019-10-13 13:46:33.1904 ERROR Here is error message from our values controller.
+2019-10-13 17:32:36.6098 INFO Here is info message from our values controller.
+2019-10-13 17:32:36.6753 DEBUG Here is debug message from our values controller.
+2019-10-13 17:32:36.6753 WARN Here is warn message from our values controller.
+2019-10-13 17:32:36.6753 ERROR Here is error message from our values controller.
+2019-10-13 17:46:22.4298 ERROR Some error in the GetAllOwners method: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Attendance_GOON.Controllers.ValuesController.GetAllOwners() in C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\Controllers\ValuesController.cs:line 29

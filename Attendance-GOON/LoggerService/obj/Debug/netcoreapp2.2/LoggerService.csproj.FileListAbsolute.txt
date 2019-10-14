@@ -1,0 +1,13 @@
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CopyComplete
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Entities.pdb
