@@ -8,8 +8,12 @@ C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bi
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Attendance-GOON.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Attendance-GOON.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Entities.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\LoggerService.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Repository.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Entities.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\LoggerService.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Repository.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Contracts.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\obj\Debug\netcoreapp2.2\Attendance-GOON.csprojAssemblyReference.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\obj\Debug\netcoreapp2.2\Attendance-GOON.RazorAssemblyInfo.cache
@@ -20,7 +24,3 @@ C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\ob
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\obj\Debug\netcoreapp2.2\Attendance-GOON.csproj.CopyComplete
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\obj\Debug\netcoreapp2.2\Attendance-GOON.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\obj\Debug\netcoreapp2.2\Attendance-GOON.pdb
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Entities.dll
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Entities.pdb
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Repository.dll
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2\Repository.pdb

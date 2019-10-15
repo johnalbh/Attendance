@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,10 +34,9 @@ namespace Attendance_GOON.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong inside GetAllOwners action: {ex.Message}");
+                _logger.LogError($"Algo paso al consultar las materias: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }
-
     }
 }

@@ -36,12 +36,14 @@ namespace Attendance_GOON
             services.ConfigureLoggerService();
             services.ConfigureSqlServerContext(Configuration);
             services.ConfigureRepositoryWrapper();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -52,17 +54,14 @@ namespace Attendance_GOON
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
-
+            // app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
-
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.All
             });
-
+            
             app.UseStaticFiles();
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

@@ -1,11 +1,11 @@
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Contracts.deps.json
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Contracts.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Entities.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.csprojAssemblyReference.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfoInputs.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfo.cs
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CopyComplete
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.pdb
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Entities.dll
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\bin\Debug\netcoreapp2.2\Entities.pdb
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CopyComplete
