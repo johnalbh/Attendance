@@ -1,0 +1,2 @@
+2019-10-16 08:02:05.4761 INFO Regresa todas las materia de la Base de Datos.
+2019-10-16 20:52:08.8010 INFO Regresa todas las materia de la Base de Datos.

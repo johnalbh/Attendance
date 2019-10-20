@@ -12,6 +12,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { RepositoryService } from './shared/services/repository.service';
 import { InternalServerComponent } from './error-pages/internal-server/internal-server.component';
 import { ErrorHandlerService } from './shared/services/error-handler.service';
+import { FormsModule} from '@angular/forms';
+import { UserService } from './shared/services/user.service';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,14 +24,19 @@ import { ErrorHandlerService } from './shared/services/error-handler.service';
     HomeComponent,
     MenuComponent,
     NotFoundComponent,
-    InternalServerComponent
+    InternalServerComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    Routing
+    Routing,
+    FormsModule,
+    HttpClientModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
-  providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService],
+  providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

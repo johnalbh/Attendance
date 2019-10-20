@@ -3,8 +3,10 @@ C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Contracts.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Contracts.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs

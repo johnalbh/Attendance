@@ -10,7 +10,8 @@ export const routes: Routes = [
     { path: '404', component : NotFoundComponent},
     { path: '500', component: InternalServerComponent },
     { path: 'materia', loadChildren: "./materia/materia.module#MateriaModule" },
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: 'user', loadChildren: "./user/user.module#UserModule" },
+    { path: '', redirectTo: 'user/registro', pathMatch: 'full' },
     { path: '**', redirectTo: '/404', pathMatch: 'full'}
 ];
 

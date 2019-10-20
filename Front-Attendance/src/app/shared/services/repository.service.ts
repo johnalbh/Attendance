@@ -31,10 +31,8 @@ export class RepositoryService {
     return `${envAddress}/${route}`;
   }
   private generateHeaders() {
-    
     return {
       headers: new HttpHeaders({'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*'})
     }
-  }
-  
+  } 
 }

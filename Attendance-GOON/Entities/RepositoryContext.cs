@@ -1,25 +1,26 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Entities.Models
 {
-    public partial class RepositoryContext : DbContext
+    public partial class RepositoryContext : IdentityDbContext
     {
-        public RepositoryContext(DbContextOptions<RepositoryContext> options)
-            : base(options)
+        public RepositoryContext(DbContextOptions options):base(options)
         {
+            
         }
-
-        public virtual DbSet<Calendario> Calendario { get; set; }
-        public virtual DbSet<Clase> Clase { get; set; }
-        public virtual DbSet<Dominio> Dominio { get; set; }
-        public virtual DbSet<Grupo> Grupo { get; set; }
-        public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
-        public virtual DbSet<Horario> Horario { get; set; }
-        public virtual DbSet<Materia> Materia { get; set; }
-        public virtual DbSet<Persona> Persona { get; set; }
-        public virtual DbSet<Profesor> Profesor { get; set; }
+        public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        //public virtual DbSet<Calendario> Calendario { get; set; }
+        //public virtual DbSet<Clase> Clase { get; set; }
+        //public virtual DbSet<Dominio> Dominio { get; set; }
+        //public virtual DbSet<Grupo> Grupo { get; set; }
+        //public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
+        //public virtual DbSet<Horario> Horario { get; set; }
+        //public virtual DbSet<Materia> Materia { get; set; }
+        //public virtual DbSet<Persona> Persona { get; set; }
+        //public virtual DbSet<Profesor> Profesor { get; set; }
 
         // Unable to generate entity type for table 'dbo.Parametro'. Please see the warning messages.
 
@@ -27,13 +28,15 @@ namespace Entities.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=DESKTOP-NKKIOBJ\\SQLEXPRESS;Database=Attendance;Trusted_Connection=True; User Id=sa;Password=230488");
             }
         }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+       
+
             modelBuilder.HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
             modelBuilder.Entity<Calendario>(entity =>
@@ -183,6 +186,7 @@ namespace Entities.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Profesor_Persona");
             });
+            base.OnModelCreating(modelBuilder);
         }
     }
 }
