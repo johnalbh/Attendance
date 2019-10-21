@@ -8,7 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NotFoundComponent } from './error-pages/not-found/not-found.component';
 import { Routing } from './app.routing';
 import { EnvironmentUrlService } from './shared/services/environment-url.service';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RepositoryService } from './shared/services/repository.service';
 import { InternalServerComponent } from './error-pages/internal-server/internal-server.component';
 import { ErrorHandlerService } from './shared/services/error-handler.service';
@@ -17,6 +17,9 @@ import { UserService } from './shared/services/user.service';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AuthInterceptor } from './auth/auth.interceptor';
+import { AdministradorComponent } from './administrador/administrador.component';
+import { ForbiddenComponent } from './forbidden/forbidden.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MenuComponent,
     NotFoundComponent,
     InternalServerComponent,
+    AdministradorComponent,
+    ForbiddenComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +41,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     ReactiveFormsModule
   ],
-  providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService, UserService],
+  providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService, UserService, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

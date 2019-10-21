@@ -6,6 +6,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { UserService } from '../shared/services/user.service';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { AuthGuard } from '../auth/auth.guard';
 
 
 @NgModule({
@@ -15,8 +16,8 @@ import { LoginComponent } from './login/login.component';
     ReactiveFormsModule,
     FormsModule,
     RouterModule.forChild([
-      { path: '', component: UserComponent,
-        children: [
+      { path: '', component: UserComponent, 
+              children: [
           {path: 'registro', component: RegistroComponent},
           {path: 'login', component: LoginComponent}
         ]

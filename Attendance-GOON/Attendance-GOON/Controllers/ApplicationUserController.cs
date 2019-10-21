@@ -36,7 +36,9 @@ namespace Attendance_GOON.Controllers
         [Route("Registro")]
         //POST : api/ApplicationUser/Registro
         public async Task<Object> PostApplicationUser(ApplicationUserDTO model)
+
         {
+            model.Role = "Administrador";
             var applicationuser = new ApplicationUser()            
             {
                     UserName = model.UserName,
@@ -46,6 +48,7 @@ namespace Attendance_GOON.Controllers
             try
             {
                 var result = await _userManager.CreateAsync(applicationuser, model.Password);
+                await _userManager.AddToRoleAsync(applicationuser, model.Role);
                 return Ok(result);
             }
             catch (Exception ex)
@@ -61,11 +64,14 @@ namespace Attendance_GOON.Controllers
             var user = await _userManager.FindByNameAsync(model.UserName);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
+                var role = await _userManager.GetRolesAsync(user);
+                IdentityOptions _options = new IdentityOptions();
                 var tokenDescription = new SecurityTokenDescriptor
                 {
                     Subject = new ClaimsIdentity(new Claim[]
                     {
                         new Claim("UserID", user.Id.ToString()),
+                        new Claim(_options.ClaimsIdentity.RoleClaimType, role.FirstOrDefault())
                     }),
                     Expires = DateTime.UtcNow.AddMinutes(5),
                     SigningCredentials = new SigningCredentials(

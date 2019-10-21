@@ -32,5 +32,27 @@ namespace Attendance_GOON.Controllers
                 user.UserName
             };
         }
+
+        [HttpGet]
+        [Authorize(Roles = "Administrador")]
+        [Route("ForAdmin")]
+        public string GetForAdmin()
+        {
+            return "Web Method fo Admin";
+        }
+        [HttpGet]
+        [Authorize(Roles = "Docente")]
+        [Route("Docente")]
+        public string GetForDocente()
+        {
+            return "Web Method fo Docente";
+        }
+        [HttpGet]
+        [Authorize(Roles = "Administrador, Docente")]
+        [Route("ForAdminOrDocente")]
+        public string GetForAdminOrDocente()
+        {
+            return "Web Method Admin or Docente";
+        }
     }
 }

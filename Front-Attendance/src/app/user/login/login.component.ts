@@ -17,8 +17,8 @@ export class LoginComponent implements OnInit {
   constructor(private service: UserService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
-    /*if (localStorage.getItem('token') != null)
-      this.router.navigateByUrl('/home');*/
+    if (localStorage.getItem('token') != null)
+      this.router.navigateByUrl('/home');
   }
 
   onSubmit(form: NgForm) {
@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
       },
       err => {
         if (err.status == 400)
-          this.toastr.error('Incorrect username or password.', 'Authentication failed.');
+          this.toastr.error('Usuario o Contraseña Incorrectos', 'No se puedo autenticar');
         else
           console.log(err);
       }

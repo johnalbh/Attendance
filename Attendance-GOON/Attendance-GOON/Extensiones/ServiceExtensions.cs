@@ -8,6 +8,7 @@ using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -48,7 +49,9 @@ namespace Attendance_GOON.Extensiones
         {
             var connectionString = config["ConnectionStrings:sqlConString"];
             services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(connectionString));
-            services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores <RepositoryContext>();
+            services.AddDefaultIdentity<ApplicationUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores <RepositoryContext>();
             var key = Encoding.UTF8.GetBytes(config["ApplicationSetting:JWTSecret"].ToString());
             services.AddAuthentication(x =>
             {

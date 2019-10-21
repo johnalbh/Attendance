@@ -36,7 +36,7 @@ export class RegistroComponent implements OnInit {
         }
       },
       err => {
-        console.log(err);
+        console.log("Prueba", err);
       }
     );
   }
