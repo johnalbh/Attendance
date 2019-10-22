@@ -3,6 +3,29 @@ html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
+
+.bg-gradient-primary {
+
+    background: #fafafa;
+    border: 1px solid #ddd;
+    
+}
+.sidebar-dark hr.sidebar-divider {
+  border: 0.5px solid #ddd;
+}
+.sidebar-dark .nav-item .nav-link,
+.sidebar-dark .sidebar-heading,
+.sidebar-dark .nav-item.active .nav-link,
+.sidebar-dark .nav-item .nav-link i,
+.sidebar-dark .nav-item.active .nav-link i
+ {
+  color: #040c31;
+}
+
+.sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover {
+  color: #fff;
+  background: #2764a5 !important;
+}
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
@@ -109,3 +132,22 @@ button.btn-submit:focus,button.btn-submit:hover{
     background-color: #38547b;
 }
 
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-imagin-login {
+  background-image: url('../src/assets/img/fondo-lobo.jpg');
+}
+.bg-imagin-registro {
+  background-image: url('../src/assets/img/fondo-registro.jpg');
+}
+.bg-image {
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo {
+  padding: 20px 0;
+}

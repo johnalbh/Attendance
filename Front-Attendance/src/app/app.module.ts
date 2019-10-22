@@ -1,9 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { NotFoundComponent } from './error-pages/not-found/not-found.component';
 import { Routing } from './app.routing';
@@ -20,16 +18,18 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
+import { HeaderComponent } from './global/header/header.component';
+import { SidebarComponent } from './global/sidebar/sidebar.component';
+import { FooterComponent } from './global/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     MenuComponent,
     NotFoundComponent,
     InternalServerComponent,
     AdministradorComponent,
-    ForbiddenComponent,
+    ForbiddenComponent
   ],
   imports: [
     BrowserModule,

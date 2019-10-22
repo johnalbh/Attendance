@@ -16,7 +16,7 @@ import { AuthGuard } from '../auth/auth.guard';
     ReactiveFormsModule,
     FormsModule,
     RouterModule.forChild([
-      { path: '', component: UserComponent, 
+      { path: '', component: UserComponent,
               children: [
           {path: 'registro', component: RegistroComponent},
           {path: 'login', component: LoginComponent}

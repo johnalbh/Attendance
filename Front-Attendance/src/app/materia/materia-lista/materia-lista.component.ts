@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Materia } from 'src/app/_interfaces/materia.model';
 import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { ErrorHandlerService } from 'src/app/shared/services/error-handler.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-materia-lista',
@@ -11,7 +12,7 @@ import { ErrorHandlerService } from 'src/app/shared/services/error-handler.servi
 export class MateriaListaComponent implements OnInit {
   public materias: Materia[];
   public errorMessage: string = '';
-  constructor(private repository: RepositoryService, private errorHandler: ErrorHandlerService) { }
+  constructor(private router:Router, private repository: RepositoryService, private errorHandler: ErrorHandlerService) { }
 
   ngOnInit() {
     this.getAllMaterias();

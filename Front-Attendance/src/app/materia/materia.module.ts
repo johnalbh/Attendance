@@ -7,9 +7,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule.forChild([
-        { path: 'list', component: MateriaListaComponent }
+        { path: '', component: MateriaListaComponent }
       ])
   ],
-  declarations: [MateriaListaComponent]
+  declarations: [ MateriaListaComponent  ]
 })
 export class MateriaModule { }

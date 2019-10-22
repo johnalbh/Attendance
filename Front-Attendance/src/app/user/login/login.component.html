@@ -1,15 +1,39 @@
-<form #form='ngForm' class="mb-4" autocomplete="off" (submit)="onSubmit(form)">
-  <div class="form-group">
-    <label>Username</label>
-    <input class="form-control" #UserName="ngModel" name="UserName" [(ngModel)]="formModel.UserName" required>
-  </div>
-  <div class="form-group">
-    <label>Password</label>
-    <input type="password" class="form-control" #Password="ngModel" name="Password" [(ngModel)]="formModel.Password" required>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-8 offset-md-2">
-      <button type="submit" class="btn btn-lg btn-block" [disabled]="form.invalid">Login</button>
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <!-- The image half -->
+        <div class="col-md-6 d-none d-md-flex bg-imagin-login bg-image"></div>       
+       <!-- The content half -->
+        <div class="col-md-6 bg-light">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-xl-7 mx-auto">
+                            <div class="text-center">
+                                <img src="../../../assets/img/logo-attendance.png" class="img-responsive logo" width="300px"/>
+                            </div>
+                            <br>
+                            <h4 class="display-5 text-center">Iniciar Sesión</h4>
+                            <p class="text-muted mb-4 text-center">Ingrese su usuario y contraseña</p>
+                            <form #form='ngForm' class="mb-4" autocomplete="off" (submit)="onSubmit(form)">
+                                <div class="form-group mb-3">
+                                    <input id="inputEmail" #UserName="ngModel" name="UserName" [(ngModel)]="formModel.UserName" type="email" placeholder="Correo Electrónico" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input id="inputPassword" placeholder="Contraseña" type="password" class="form-control" #Password="ngModel" name="Password" [(ngModel)]="formModel.Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+                                </div>
+                                <!-- <div class="custom-control custom-checkbox mb-3">
+                                    <input id="customCheck1" type="checkbox" checked class="custom-control-input">
+                                    <label for="customCheck1" class="custom-control-label">Remember password</label>
+                                </div> -->
+                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm" [disabled]="form.invalid">Iniciar Sesión</button>
+                                <div class="text-center d-flex justify-content-between mt-4"><p><a routerLink='/user/registro' routerLinkActive='active' class="font-italic text-muted"> 
+                                        <u>Registrarse</u></a></p></div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div>
+        </div><!-- End -->
     </div>
-  </div>
-</form>
+</div>
