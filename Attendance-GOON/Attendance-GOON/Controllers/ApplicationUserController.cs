@@ -48,11 +48,23 @@ namespace Attendance_GOON.Controllers
             try
             {
                 var result = await _userManager.CreateAsync(applicationuser, model.Password);
-                await _userManager.AddToRoleAsync(applicationuser, model.Role);
-                return Ok(result);
+                if (result.Succeeded == true)
+                {
+                    await _userManager.AddToRoleAsync(applicationuser, model.Role);
+                    return Ok(result);
+                }
+                else
+                {
+                    
+                    return BadRequest(result.Errors);
+                }
+
+
+
             }
             catch (Exception ex)
             {
+                
                 throw ex;
             }
         }
@@ -87,5 +99,6 @@ namespace Attendance_GOON.Controllers
                 return BadRequest(new {message = "Usuario o Contraseña Incorrecta"});
 
         }
+
     }
 }

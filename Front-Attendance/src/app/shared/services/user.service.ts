@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { UserProfile } from 'src/app/_interfaces/user.model';
 
 
 @Injectable({
@@ -39,7 +40,7 @@ export class UserService {
       FullName: this.formModel.value.FullName,
       Password: this.formModel.value.Passwords.Password
     };
-    console.log(this.BaseURI + '/ApplicationUser/Registro', body)
+    console.log(body);
     return this.http.post(this.BaseURI + '/ApplicationUser/Registro', body);
   }
   login(formData) {
@@ -47,7 +48,7 @@ export class UserService {
   }
   getPerfilUsuario(){
 
-    return this.http.get(this.BaseURI+'/PerfilUsuario');
+    return this.http.get<UserProfile>(this.BaseURI + '/PerfilUsuario');
   }
   roleMatch(allowedRoles): boolean {
     var isMatch = false;

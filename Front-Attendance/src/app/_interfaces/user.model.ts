@@ -5,3 +5,9 @@ export class User {
     FirstName: string;
     LastName: string;
 }
+
+export class UserProfile {
+    fullName: string;
+    email: string;
+    userName: string;
+}

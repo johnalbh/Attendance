@@ -1,0 +1,35 @@
+2019-11-01 12:34:21.7668 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:35:09.3117 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:35:49.7904 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:40:21.1743 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:40:30.8052 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:41:48.0162 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:42:54.8565 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:49:13.7959 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 12:49:22.0901 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:09:31.5620 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:13:30.4518 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:16:22.8921 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:16:53.7920 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:17:21.5307 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:18:22.8322 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:19:27.5763 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:19:35.9565 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:24:07.2832 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:24:22.0014 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:25:22.2146 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:25:29.0199 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:26:04.6382 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:26:57.2618 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:30:02.3753 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:30:14.3808 INFO Returned all owners from database.
+2019-11-01 14:30:14.6437 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:31:10.7153 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:31:19.5853 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:33:29.3055 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 14:33:50.3902 INFO Returned all owners from database.
+2019-11-01 14:33:50.9436 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 15:54:14.4523 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 15:55:13.7379 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 15:56:15.0459 INFO Regresa todas las materia de la Base de Datos.
+2019-11-01 15:56:25.1660 INFO Regresa todas las materia de la Base de Datos.

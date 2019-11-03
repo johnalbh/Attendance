@@ -12,15 +12,15 @@ namespace Entities.Models
             
         }
         public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        //public virtual DbSet<Calendario> Calendario { get; set; }
-        //public virtual DbSet<Clase> Clase { get; set; }
-        //public virtual DbSet<Dominio> Dominio { get; set; }
-        //public virtual DbSet<Grupo> Grupo { get; set; }
-        //public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
-        //public virtual DbSet<Horario> Horario { get; set; }
-        //public virtual DbSet<Materia> Materia { get; set; }
-        //public virtual DbSet<Persona> Persona { get; set; }
-        //public virtual DbSet<Profesor> Profesor { get; set; }
+        public virtual DbSet<Calendario> Calendario { get; set; }
+        public virtual DbSet<Clase> Clase { get; set; }
+        public virtual DbSet<Dominio> Dominio { get; set; }
+        public virtual DbSet<Grupo> Grupo { get; set; }
+        public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
+        public virtual DbSet<Horario> Horario { get; set; }
+        public virtual DbSet<Materia> Materia { get; set; }
+        public virtual DbSet<Persona> Persona { get; set; }
+        public virtual DbSet<Profesor> Profesor { get; set; }
 
         // Unable to generate entity type for table 'dbo.Parametro'. Please see the warning messages.
 

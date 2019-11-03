@@ -1,0 +1,6 @@
+2019-10-23 10:45:51.6191 INFO Regresa todas las materia de la Base de Datos.
+2019-10-23 12:34:11.8864 INFO Materia con el ID: 1
+2019-10-23 12:34:40.5672 INFO Materia con el ID: 2
+2019-10-23 14:16:43.3437 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-10-23 15:26:34.2853 INFO Regresa todas las materia de la Base de Datos.
+2019-10-23 15:27:13.1512 INFO Regresa todas las materia de la Base de Datos.

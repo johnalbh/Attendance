@@ -3,27 +3,27 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { AuthGuard } from '../auth/auth.guard';
-import { SidebarComponent } from '../global/sidebar/sidebar.component';
-import { MateriaModule } from '../materia/materia.module';
-import { HeaderComponent } from '../global/header/header.component';
-import { FooterComponent } from '../global/footer/footer.component';
+import { GlobalModule } from '../global/global.module';
+
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    SidebarComponent,
-    HeaderComponent,
-    FooterComponent
+
   ],
   imports: [
     CommonModule,
     RouterModule.forChild([
       { path: '', component: HomeComponent
-      , children: [ {path: 'materia', loadChildren: './../materia/materia.module#MateriaModule' }]
+      , children: [
+        {path: 'materia', loadChildren: './../materia/materia.module#MateriaModule' },
+        {path: 'profesores', loadChildren: './../profesores/profesores.module#ProfesoresModule' }
+      ]
       , canActivate: [AuthGuard]  },
 
-    ])
+    ]),
+    GlobalModule,
   ]
 })
 export class HomeModule { }

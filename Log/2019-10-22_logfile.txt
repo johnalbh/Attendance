@@ -53,3 +53,6 @@
 2019-10-22 14:06:37.9807 INFO Regresa todas las materia de la Base de Datos.
 2019-10-22 14:32:04.6883 INFO Regresa todas las materia de la Base de Datos.
 2019-10-22 14:37:02.5686 INFO Regresa todas las materia de la Base de Datos.
+2019-10-22 14:48:18.0013 INFO Regresa todas las materia de la Base de Datos.
+2019-10-22 19:21:50.0089 INFO Regresa todas las materia de la Base de Datos.
+2019-10-22 19:26:16.1098 INFO Regresa todas las materia de la Base de Datos.

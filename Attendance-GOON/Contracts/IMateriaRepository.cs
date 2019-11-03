@@ -9,6 +9,9 @@ namespace Contracts
     public interface IMateriaRepository: IRepositoryBase<Materia>
     {
         Task<IEnumerable<Materia>> GetAllMaterias();
+        Task<Materia> GetMateriaById(int Id_Materia);
+        Task CrearMateria(Materia materia);
+        Task UpdateMateria(Materia dbMateria, Materia materia);
 
     }
 }

@@ -11,6 +11,7 @@ namespace Repository
         private RepositoryContext _repoContext;
         private IPersonaRepository _persona;
         private IMateriaRepository _materia;
+        private IProfesorRepository _profesor;
 
         public IPersonaRepository Persona
         {
@@ -35,6 +36,19 @@ namespace Repository
                 }
 
                 return _materia;
+            }
+        }
+
+        public IProfesorRepository Profesor
+        {
+            get
+            {
+                if (_profesor == null)
+                {
+                    _profesor = new ProfesorRepository(_repoContext);
+                }
+
+                return _profesor;
             }
         }
 

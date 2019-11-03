@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private service: UserService) { }
 
   ngOnInit() {
-    this.service.getPerfilUsuario().subscribe(
+    /*this.service.getPerfilUsuario().subscribe(
       res => {
         this.userDetalle = res;
         console.log(res);
@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
       err => {
         console.log(err)
       }
-    );
+    );*/
     this.homeText = "WELCOME TO ACCOUNT-OWNER APPLICATION";
   }
 

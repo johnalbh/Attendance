@@ -18,18 +18,21 @@ export class RegistroComponent implements OnInit {
   onSubmit() {
     this.service.register().subscribe(
       (res: any) => {
+        console.log("res", res);
         if (res.succeeded) {
           this.service.formModel.reset();
-          this.toastr.success('New user created!', 'Registration successful.');
+          this.toastr.success('Usuario Creado!', 'Registro Exitoso.');
         } else {
           res.errors.forEach(element => {
             switch (element.code) {
               case 'DuplicateUserName':
-                this.toastr.error('Username is already taken','Registration failed.');
+                this.toastr.error('Ya existe el Usuario','Registro Fallo.');
                 break;
-
+              case 'PasswordRequiresNonAlphanumeric':
+                  this.toastr.error('La clave debe ser Alphanumerica','Registro Fallo.');
+                break;
               default:
-              this.toastr.error(element.description,'Registration failed.');
+              this.toastr.error(element.description,'RegistroFallo.');
                 break;
             }
           });
@@ -37,6 +40,22 @@ export class RegistroComponent implements OnInit {
       },
       err => {
         console.log("Prueba", err);
+
+        err.error.forEach(element => {
+          switch (element.code) {
+            case 'DuplicateUserName':
+              this.toastr.error('Ya existe el Usuario','Registro Fallo.');
+              break;
+            case 'PasswordRequiresNonAlphanumeric':
+            case 'PasswordRequiresLower':
+            case 'PasswordRequiresUpper':
+                this.toastr.error('La clave debe ser Alphanumerica','Registro Fallo.');
+              break;
+            default:
+            this.toastr.error(element.description,'Registro Fallo');
+              break;
+          }
+        });
       }
     );
   }

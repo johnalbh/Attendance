@@ -1,73 +1,81 @@
 <div class="container-fluid">
     <div class="row no-gutter">
         <!-- The image half -->
-        <div class="col-md-6 d-none d-md-flex bg-imagin-registro bg-image "></div>       
-       <!-- The content half -->
+        <div class="col-md-6 d-none d-md-flex bg-imagin-registro bg-image "></div>
+        <!-- The content half -->
         <div class="col-md-6 bg-light">
             <div class="login d-flex align-items-center py-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-xl-7 mx-auto">
                             <div class="text-center">
-                                <img src="../../../assets/img/logo-attendance.png" class="img-responsive logo" width="300px"/>
+                                <img src="../../../assets/img/logo-attendance.png" class="img-responsive logo"
+                                    width="300px" />
                             </div>
                             <br>
                             <h4 class="display-5 text-center">Registro de Usuario</h4>
-                            <p class="text-muted mb-4 text-center">Ingrese la siguiente información para crear un usuario nuevo</p>
-                            <form [formGroup]="service.formModel" autocomplete="off" (submit)="onSubmit()">
+                            <p class="text-muted mb-4 text-center">Ingrese la siguiente información para crear un
+                                usuario nuevo</p>
+                            <form [formGroup]="service.formModel" autocomplete="on" (submit)="onSubmit()">
                                 <div class="form-group">
-                                    <label>Nombre Completo</label>
-                                    <input placeholder="Nombre Completo" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4" formControlName="FullName">
-                                 </div>
-                                
-                                
+                                    <input placeholder="Nombre Completo" required="" autofocus=""
+                                        class="form-control rounded-pill border-0 shadow-sm px-4"
+                                        formControlName="FullName">
+                                </div>
                                 <div class="form-group mb-3 required">
-                                    <label>Username</label>
-                                    <input placeholder="UserName" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4" formControlName="UserName">
-                                    <label class="text-danger" *ngIf="service.formModel.get('UserName').touched && service.formModel.get('UserName').errors?.required">
-                                                Este Campo es Obligatorio</label>
-                                    </div>
+                                    <input placeholder="UserName" required="" autofocus=""
+                                        class="form-control rounded-pill border-0 shadow-sm px-4"
+                                        formControlName="UserName">
+                                    <label class="text-danger"
+                                        *ngIf="service.formModel.get('UserName').touched && service.formModel.get('UserName').errors?.required">
+                                        Este Campo es Obligatorio</label>
+                                </div>
                                 <div class="form-group">
-                                            <label>Email</label>
-                                            <input type="email" placeholder="Correo Electrónico" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4" formControlName="Email">
-                                            <label class="text-danger"
-                                                *ngIf="service.formModel.get('Email').touched && service.formModel.get('Email').errors?.email">Invalid
-                                                email address.</label>
+                                     <input type="email" placeholder="Correo Electrónico" required="" autofocus=""
+                                        class="form-control rounded-pill border-0 shadow-sm px-4"
+                                        formControlName="Email">
+                                    <label class="text-danger"
+                                        *ngIf="service.formModel.get('Email').touched && service.formModel.get('Email').errors?.email">
+                                        Correo Electrónico Invalido.</label>
                                 </div>
                                 <div formGroupName="Passwords">
-                                        <div class="form-group mb-3 required">
-                                            <label>Contraseña</label>
-                                            <input type="password" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary" formControlName="Password">
-                                            <label class="text-danger"
-                                                *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.required">
-                                                Este Campo es Obligatorio</label>
-                                            <label class="text-danger"
-                                                *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.minlength">Minimum
-                                                4 characters required.</label>
-                                        </div>
-                                        <div class="form-group required">
-                                            <label>Repetir Contraseña</label>
-                                            <input type="password" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary" formControlName="ConfirmPassword">
-                                            <label class="text-danger"
-                                                *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.required">
-                                                Este Campo es Obligatorio</label>
-                                            <label class="text-danger"
-                                                *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.passwordMismatch">Confirm
-                                                Password does not match.</label>
-                                        </div>
+                                    <div class="form-group mb-3 required">
+                                        <input type="password"
+                                            class="form-control rounded-pill border-0 shadow-sm px-4 text-primary"
+                                            formControlName="Password" placeholder="Ingrese una contraseña">
+                                        <label class="text-danger"
+                                            *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.required">
+                                            Este Campo es Obligatorio</label>
+                                        <label class="text-danger"
+                                            *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.minlength">Minimo 4 caracteres requeridos</label>
                                     </div>
+                                    <div class="form-group required">
+                                        <input type="password"
+                                            class="form-control rounded-pill border-0 shadow-sm px-4 text-primary"
+                                            formControlName="ConfirmPassword" placeholder="Ingrese una contraseña">
+                                        <label class="text-danger"
+                                            *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.required">
+                                            Este Campo es Obligatorio</label>
+                                        <label class="text-danger"
+                                            *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.passwordMismatch">Confirm
+                                            Las contraseñas no coinciden</label>
+                                    </div>
+                                </div>
                                 <!-- <div class="custom-control custom-checkbox mb-3">
                                     <input id="customCheck1" type="checkbox" checked class="custom-control-input">
                                     <label for="customCheck1" class="custom-control-label">Remember password</label>
                                 </div> -->
-                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm" [disabled]="!service.formModel.valid">Registrarse</button>
-                                <div class="text-center d-flex justify-content-between mt-4"><p><a routerLink='/user/login' routerLinkActive='active' class="font-italic text-muted"> 
-                                        <u>Iniciar Sesión</u></a></p></div>
+                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
+                                    [disabled]="!service.formModel.valid">Registrarse</button>
+                                <div class="text-center d-flex justify-content-between mt-4">
+                                    <p><a routerLink='/user/login' routerLinkActive='active'
+                                            class="font-italic text-muted">
+                                            <u>Iniciar Sesión</u></a></p>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div><!-- End -->
-
             </div>
         </div><!-- End -->
     </div>

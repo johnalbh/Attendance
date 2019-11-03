@@ -8,6 +8,7 @@ namespace Contracts
     {
         IPersonaRepository Persona { get; }
         IMateriaRepository Materia { get; }
+        IProfesorRepository Profesor { get; }
         void save();
     }
 }
