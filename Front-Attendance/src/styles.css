@@ -151,3 +151,20 @@ button.btn-submit:focus,button.btn-submit:hover{
 .logo {
   padding: 20px 0;
 }
+
+.bg-header-modal{
+  color: #fff;
+  background: #3d9ae0;
+  border-bottom:1px solid #666;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.bg-azul-claro {
+  color: #fff;
+  background: #3d9ae0;
+}

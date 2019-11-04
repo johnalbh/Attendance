@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Materia } from 'src/app/_interfaces/materia.model';
 import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { ErrorHandlerService } from 'src/app/shared/services/error-handler.service';
-import { Router } from '@angular/router';
+import { EditarMateriaComponent } from '../editar-materia/editar-materia.component';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -13,15 +14,15 @@ import { Router } from '@angular/router';
 export class MateriaListaComponent implements OnInit {
   public materias: Materia[];
   public errorMessage: string = '';
-
-  constructor(private router: Router, private repository: RepositoryService, private errorHandler: ErrorHandlerService) { }
+  public apiAddress: string = "api/materia";
+  constructor(private repository: RepositoryService, private errorHandler: ErrorHandlerService, private ngbModalService: NgbModal) { }
 
   ngOnInit() {
     this.getAllMaterias();
   }
   public getAllMaterias() {
-    let apiAddress: string = "api/materia";
-    this.repository.getData(apiAddress)
+
+    this.repository.getData(this.apiAddress)
       .subscribe(res => {
         this.materias = res as Materia[];
       },
@@ -31,6 +32,11 @@ export class MateriaListaComponent implements OnInit {
         }
       )
   }
-
-
+  public editarMateria(id: number) {
+    const materia = this.materias.find(m => m.id === id);
+    // tslint:disable-next-line: max-line-length
+    const modalRef = this.ngbModalService.open(EditarMateriaComponent);
+    modalRef.componentInstance.materia = materia;
+  }
 }
+

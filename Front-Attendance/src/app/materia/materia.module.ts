@@ -4,19 +4,30 @@ import { MateriaListaComponent } from './materia-lista/materia-lista.component';
 import { RouterModule } from '@angular/router';
 import { MateriaService } from '../shared/services/materia.service';
 import { AngularFileUploaderModule } from 'angular-file-uploader';
-import { AppModule } from '../app.module';
 import { GlobalModule } from '../global/global.module';
- 
+import { EditarMateriaComponent } from './editar-materia/editar-materia.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild([
-        { path: '', component: MateriaListaComponent }
-      ]),
+      { path: '', component: MateriaListaComponent }
+    ]),
     AngularFileUploaderModule,
-    GlobalModule
+    GlobalModule,
+    NgbModule,
+    FormsModule,
+        ReactiveFormsModule
   ],
-  declarations: [ MateriaListaComponent  ],
+  declarations: [
+    MateriaListaComponent,
+    EditarMateriaComponent
+  ],
+  entryComponents: [
+    EditarMateriaComponent
+  ],
   providers: [MateriaService]
 })
 export class MateriaModule { }

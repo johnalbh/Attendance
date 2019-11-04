@@ -1,0 +1,22 @@
+<form [formGroup]="_materiaForm" (submit)="onSubmit()">
+    <div class="modal-header bg-header-modal">
+        <h4 class="modal-title" id="modal-basic-title">Actualizar Materia</h4>
+        <button type="button" class="close" aria-label="Close" (click)="onDismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Nombre Materia</label>
+                    <input type="text" formControlName="Nombre" class="form-control">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" (click)="onClose()" class="btn bg-azul-claro">Cancelar</button>
+        <button type="submit" class="btn btn-outline-dark">Editar</button>
+    </div>
+</form>

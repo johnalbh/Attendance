@@ -16,6 +16,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { EditarMateriaComponent } from './materia/editar-materia/editar-materia.component';
 
 
 @NgModule({
@@ -35,12 +37,14 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
     ReactiveFormsModule,
+   
   ],
   providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService, UserService, {
     provide: HTTP_INTERCEPTORS,
     useClass: AuthInterceptor,
     multi: true
   }],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

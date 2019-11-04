@@ -23885,3 +23885,412 @@
 2019-11-03 17:59:23.8581 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
 2019-11-03 18:17:02.3450 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
 2019-11-03 18:17:15.0036 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:19:23.5785 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:19:23.8298 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:26:49.9607 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:42:00.6893 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:42:01.1117 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:42:17.5400 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:51:52.0019 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:52:22.7540 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:53:09.9594 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:53:18.0965 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 18:53:40.8267 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 19:02:09.9970 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 19:02:16.9746 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 19:12:20.2364 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 19:21:08.5344 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-11-03 19:21:08.6912 Debug Found assembly location directory: 'C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-11-03 19:21:08.6969 Debug Search for auto loading files in location: C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2019-11-03 19:21:08.6969 Debug Found assembly location directory: 'C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2' (Attendance-GOON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-11-03 19:21:08.6969 Debug Search for auto loading files in location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:21:08.6969 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:21:08.6969 Debug Search for auto loading files in location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:21:08.7134 Debug Start auto loading, location: C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2019-11-03 19:21:08.7134 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-11-03 19:21:08.7134 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-11-03 19:21:08.7134 Debug Auto loading done
+2019-11-03 19:21:08.7134 Info Message Template Auto Format enabled
+2019-11-03 19:21:08.7640 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.7771 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:21:08.7771 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-11-03 19:21:08.8155 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-11-03 19:21:08.8155 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8155 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.8155 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8221 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:21:08.8221 Trace  Scanning Property Culture '' System.Globalization
+2019-11-03 19:21:08.8221 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:21:08.8221 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:21:08.8221 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.8221 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.8221 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8221 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-11-03 19:21:08.8221 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8221 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:21:08.8488 Debug Setting 'FileTarget.name' to 'logfile'
+2019-11-03 19:21:08.8488 Debug Setting 'FileTarget.fileName' to 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'
+2019-11-03 19:21:08.8488 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8524 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:21:08.8524 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-11-03 19:21:08.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8524 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:21:08.8524 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-11-03 19:21:08.8524 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-11-03 19:21:08.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8524 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8524 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:21:08.8524 Trace  Scanning Property Culture '' System.Globalization
+2019-11-03 19:21:08.8524 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:21:08.8524 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:21:08.8524 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.8524 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:21:08.8524 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:21:08.8524 Info Adding target FileTarget(Name=logfile)
+2019-11-03 19:21:08.8687 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-11-03 19:21:08.8687 Trace ParseRulesElement
+2019-11-03 19:21:08.8954 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-11-03 19:21:08.9052 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-11-03 19:21:08.9217 Debug Watching path 'C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON' filter 'nlog.config' for changes.
+2019-11-03 19:21:08.9217 Debug --- NLog configuration dump ---
+2019-11-03 19:21:08.9217 Debug Targets:
+2019-11-03 19:21:08.9217 Debug File Target[logfile]
+2019-11-03 19:21:08.9217 Debug Rules:
+2019-11-03 19:21:08.9217 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-11-03 19:21:08.9305 Debug --- End of NLog configuration dump ---
+2019-11-03 19:21:08.9305 Trace FindReachableObject<System.Object>:
+2019-11-03 19:21:08.9305 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-11-03 19:21:08.9305 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-11-03 19:21:08.9305 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-11-03 19:21:08.9305 Trace   Scanning Property FileName ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'' NLog.Layouts
+2019-11-03 19:21:08.9305 Trace   Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:21:08.9305 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9305 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9305 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:21:08.9468 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9468 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-11-03 19:21:08.9468 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:21:08.9468 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9468 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:21:08.9468 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9468 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:21:08.9468 Trace     Scanning Property Culture '' System.Globalization
+2019-11-03 19:21:08.9468 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:21:08.9468 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:21:08.9468 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9468 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.9468 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9468 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:21:08.9624 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-11-03 19:21:08.9624 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-11-03 19:21:08.9624 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-11-03 19:21:08.9624 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-11-03 19:21:08.9624 Info Found 14 configuration items
+2019-11-03 19:21:08.9624 Trace Initializing Layout Renderer: ${message}
+2019-11-03 19:21:08.9624 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:21:08.9624 Trace Initializing Layout Renderer: ${level}
+2019-11-03 19:21:08.9624 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-11-03 19:21:08.9802 Trace FindReachableObject<System.Object>:
+2019-11-03 19:21:08.9802 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:21:08.9802 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9802 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.9802 Trace Initializing Layout Renderer: ${uppercase}
+2019-11-03 19:21:08.9802 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:21:08.9802 Trace Initializing Layout Renderer: ${longdate}
+2019-11-03 19:21:08.9802 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-11-03 19:21:08.9802 Trace FindReachableObject<System.Object>:
+2019-11-03 19:21:08.9802 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:21:08.9802 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9802 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:21:08.9934 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9934 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:21:08.9934 Trace   Scanning Property Culture '' System.Globalization
+2019-11-03 19:21:08.9934 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:21:08.9934 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:21:08.9934 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9934 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:21:08.9934 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9934 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:21:08.9934 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:21:08.9934 Trace Initializing Layout Renderer: ${shortdate}
+2019-11-03 19:21:08.9934 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:21:08.9934 Trace Initializing 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'
+2019-11-03 19:21:08.9934 Trace FindReachableObject<System.Object>:
+2019-11-03 19:21:08.9934 Trace Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:21:08.9934 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:21:08.9934 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9934 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:21:08.9934 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:21:08.9934 Trace Initializing File Target[logfile]
+2019-11-03 19:21:09.0129 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-11-03 19:21:09.0129 Trace Scanning FileTarget 'File Target[logfile]'
+2019-11-03 19:21:09.0129 Trace  Scanning Property FileName ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'' NLog.Layouts
+2019-11-03 19:21:09.0129 Trace  Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:21:09.0129 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-11-03 19:21:09.0129 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:21:09.0129 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-11-03 19:21:09.0129 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-11-03 19:21:09.0129 Trace File Target[logfile] has 2 layouts
+2019-11-03 19:21:09.0129 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-11-03 19:21:13.2077 Debug Targets for LoggerService.LoggerManager by level:
+2019-11-03 19:21:13.2077 Debug Trace =>
+2019-11-03 19:21:13.2077 Debug Debug => logfile
+2019-11-03 19:21:13.2077 Debug Info => logfile
+2019-11-03 19:21:13.2077 Debug Warn => logfile
+2019-11-03 19:21:13.2122 Debug Error => logfile
+2019-11-03 19:21:13.2122 Debug Fatal => logfile
+2019-11-03 19:21:13.3202 Debug FileTarget(Name=logfile): Process file 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt' on startup
+2019-11-03 19:21:13.3432 Debug Creating file appender: C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt
+2019-11-03 19:21:13.3432 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 19:25:13.5842 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-11-03 19:25:13.7347 Debug Found assembly location directory: 'C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-11-03 19:25:13.7347 Debug Search for auto loading files in location: C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2019-11-03 19:25:13.7466 Debug Found assembly location directory: 'C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2' (Attendance-GOON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-11-03 19:25:13.7466 Debug Search for auto loading files in location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:25:13.7466 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:25:13.7466 Debug Search for auto loading files in location: C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON\bin\Debug\netcoreapp2.2
+2019-11-03 19:25:13.7466 Debug Start auto loading, location: C:\Users\johna\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2019-11-03 19:25:13.7466 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-11-03 19:25:13.7599 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-11-03 19:25:13.7599 Debug Auto loading done
+2019-11-03 19:25:13.7599 Info Message Template Auto Format enabled
+2019-11-03 19:25:13.7938 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.7938 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:25:13.8126 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-11-03 19:25:13.8528 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-11-03 19:25:13.8548 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.8548 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:13.8548 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.8548 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:25:13.8548 Trace  Scanning Property Culture '' System.Globalization
+2019-11-03 19:25:13.8696 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:25:13.8696 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:25:13.8696 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:13.8696 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:13.8696 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.8696 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-11-03 19:25:13.8696 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.8696 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:25:13.8907 Debug Setting 'FileTarget.name' to 'logfile'
+2019-11-03 19:25:13.8907 Debug Setting 'FileTarget.fileName' to 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'
+2019-11-03 19:25:13.8907 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.8907 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:25:13.8907 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-11-03 19:25:13.9001 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.9001 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:25:13.9001 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-11-03 19:25:13.9001 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-11-03 19:25:13.9001 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.9001 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:13.9001 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.9001 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:25:13.9001 Trace  Scanning Property Culture '' System.Globalization
+2019-11-03 19:25:13.9001 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:25:13.9001 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:25:13.9001 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:13.9001 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:13.9001 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-11-03 19:25:13.9001 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:25:13.9001 Info Adding target FileTarget(Name=logfile)
+2019-11-03 19:25:13.9001 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-11-03 19:25:13.9150 Trace ParseRulesElement
+2019-11-03 19:25:13.9341 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-11-03 19:25:13.9341 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-11-03 19:25:13.9565 Debug Watching path 'C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Attendance-GOON' filter 'nlog.config' for changes.
+2019-11-03 19:25:13.9565 Debug --- NLog configuration dump ---
+2019-11-03 19:25:13.9565 Debug Targets:
+2019-11-03 19:25:13.9629 Debug File Target[logfile]
+2019-11-03 19:25:13.9629 Debug Rules:
+2019-11-03 19:25:13.9629 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-11-03 19:25:13.9629 Debug --- End of NLog configuration dump ---
+2019-11-03 19:25:13.9629 Trace FindReachableObject<System.Object>:
+2019-11-03 19:25:13.9786 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-11-03 19:25:13.9786 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-11-03 19:25:13.9786 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-11-03 19:25:13.9786 Trace   Scanning Property FileName ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'' NLog.Layouts
+2019-11-03 19:25:13.9786 Trace   Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:25:13.9786 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:13.9786 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:13.9786 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:25:13.9786 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:13.9786 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-11-03 19:25:13.9786 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:25:13.9931 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:13.9931 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:25:13.9931 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:13.9931 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:25:13.9931 Trace     Scanning Property Culture '' System.Globalization
+2019-11-03 19:25:13.9931 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:25:13.9931 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:25:13.9931 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:13.9931 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:13.9931 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:13.9931 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:25:13.9931 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-11-03 19:25:13.9931 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-11-03 19:25:13.9931 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-11-03 19:25:13.9931 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-11-03 19:25:13.9931 Info Found 14 configuration items
+2019-11-03 19:25:14.0098 Trace Initializing Layout Renderer: ${message}
+2019-11-03 19:25:14.0098 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:25:14.0098 Trace Initializing Layout Renderer: ${level}
+2019-11-03 19:25:14.0098 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-11-03 19:25:14.0291 Trace FindReachableObject<System.Object>:
+2019-11-03 19:25:14.0291 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:25:14.0291 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:14.0291 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:14.0487 Trace Initializing Layout Renderer: ${uppercase}
+2019-11-03 19:25:14.0487 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:25:14.0487 Trace Initializing Layout Renderer: ${longdate}
+2019-11-03 19:25:14.0585 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-11-03 19:25:14.0585 Trace FindReachableObject<System.Object>:
+2019-11-03 19:25:14.0585 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:25:14.0724 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:14.0724 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-11-03 19:25:14.0724 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:14.0724 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-11-03 19:25:14.0724 Trace   Scanning Property Culture '' System.Globalization
+2019-11-03 19:25:14.0724 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-11-03 19:25:14.0724 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-11-03 19:25:14.0724 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:14.0724 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-11-03 19:25:14.0878 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:14.0878 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-11-03 19:25:14.0878 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:25:14.0878 Trace Initializing Layout Renderer: ${shortdate}
+2019-11-03 19:25:14.0878 Trace Initializing Layout Renderer: ${literal}
+2019-11-03 19:25:14.0878 Trace Initializing 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'
+2019-11-03 19:25:14.0878 Trace FindReachableObject<System.Object>:
+2019-11-03 19:25:14.0878 Trace Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:25:14.0878 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-11-03 19:25:14.0878 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:14.0878 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-11-03 19:25:14.0878 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-11-03 19:25:14.0878 Trace Initializing File Target[logfile]
+2019-11-03 19:25:14.1065 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-11-03 19:25:14.1065 Trace Scanning FileTarget 'File Target[logfile]'
+2019-11-03 19:25:14.1065 Trace  Scanning Property FileName ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt'' NLog.Layouts
+2019-11-03 19:25:14.1065 Trace  Scanning SimpleLayout ''C:\Users\johna\OneDrive\Escritorio\Attendance\Log\${shortdate}_logfile.txt''
+2019-11-03 19:25:14.1065 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-11-03 19:25:14.1065 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-11-03 19:25:14.1065 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-11-03 19:25:14.1065 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-11-03 19:25:14.1212 Trace File Target[logfile] has 2 layouts
+2019-11-03 19:25:14.1212 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-11-03 19:26:34.4888 Debug Targets for LoggerService.LoggerManager by level:
+2019-11-03 19:26:34.4888 Debug Trace =>
+2019-11-03 19:26:34.4888 Debug Debug => logfile
+2019-11-03 19:26:34.4888 Debug Info => logfile
+2019-11-03 19:26:34.5059 Debug Warn => logfile
+2019-11-03 19:26:34.5059 Debug Error => logfile
+2019-11-03 19:26:34.5094 Debug Fatal => logfile
+2019-11-03 19:26:34.5856 Debug FileTarget(Name=logfile): Process file 'C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt' on startup
+2019-11-03 19:26:34.6153 Debug Creating file appender: C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt
+2019-11-03 19:26:34.6299 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:09:52.0667 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:10:29.5489 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:10:41.2925 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:11:33.3666 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:13:51.7957 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:15:03.2166 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:15:35.5427 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:17:27.1840 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:24:03.5800 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:48:44.3913 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:49:18.3090 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:49:58.3336 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:51:49.7105 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:51:56.4481 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:56:19.8189 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:59:28.7426 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 20:59:37.3747 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:05:19.0181 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:23:40.9049 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:27:39.7258 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:34:20.2072 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:35:37.3599 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:37:19.0730 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:39:41.0067 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:40:29.4050 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:44:43.8204 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:44:51.7542 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:45:48.9292 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:48:00.2007 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:48:45.0572 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:51:33.9455 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:53:15.4865 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 21:57:03.6215 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:05:09.8515 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:05:16.9246 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:05:41.5374 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:15:12.9473 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:16:19.9536 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:17:47.4676 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:17:53.8831 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:18:20.8291 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:18:36.7560 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:19:05.6721 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:39:47.5507 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:46:10.1726 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:46:47.7750 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:47:33.2346 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:49:28.6251 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:50:07.0708 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:50:30.0495 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:51:14.4222 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 22:51:25.0490 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:02:57.7428 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:03:27.2285 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:03:46.8726 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:05:05.2799 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:05:36.5031 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:06:23.7308 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:06:59.4449 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:09:53.3378 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:10:00.9101 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:11:20.6195 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:12:01.3368 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:13:08.2672 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:14:13.7439 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:14:29.7953 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:14:57.0479 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:17:15.2027 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:17:23.9917 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:17:35.4621 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:18:05.2368 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:20:38.2796 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:21:51.6112 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:22:00.1934 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:24:00.0817 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:25:50.7186 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:26:23.0477 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:26:41.6627 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:26:49.2712 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:27:08.4270 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:27:36.7992 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:38:31.8605 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:39:16.5849 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:40:21.2357 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:42:05.2349 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:42:19.7343 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:43:44.5457 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:48:36.5112 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:48:47.5077 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:50:16.6608 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:50:38.9149 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:51:10.3889 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:53:41.9646 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:54:28.6448 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:54:35.6185 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:54:50.7168 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:55:25.2162 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:55:36.8281 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:55:48.6849 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:56:12.9186 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:56:57.4546 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:57:35.1190 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:58:27.4983 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:58:43.1371 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False
+2019-11-03 23:59:10.4218 Trace Opening C:\Users\johna\OneDrive\Escritorio\Attendance\Log\2019-11-03_logfile.txt with allowFileSharedWriting=False

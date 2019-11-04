@@ -121,7 +121,6 @@ namespace Attendance_GOON.Controllers
 
                 await _repository.Materia.UpdateMateria(dbMateria, materia);
 
-
                 return NoContent();
             }
             catch (Exception ex)

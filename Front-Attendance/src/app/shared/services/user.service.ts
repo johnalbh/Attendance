@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { UserProfile } from 'src/app/_interfaces/user.model';
+import { EnvironmentUrlService } from './environment-url.service';
 
 
 @Injectable({
@@ -9,9 +10,7 @@ import { UserProfile } from 'src/app/_interfaces/user.model';
 })
 export class UserService {
 
-  constructor(private fb: FormBuilder, private http: HttpClient) { }
-  readonly BaseURI = 'http://localhost:50250/api';
-
+  constructor(private fb: FormBuilder, private http: HttpClient, private envUrl: EnvironmentUrlService) { }
   formModel = this.fb.group({
     UserName: ['', Validators.required],
     Email: ['', Validators.email],
@@ -24,38 +23,38 @@ export class UserService {
   });
 
   comparePasswords(fb: FormGroup) {
-    let confirmPswrdCtrl = fb.get('ConfirmPassword');
+    const confirmPswrdCtrl = fb.get('ConfirmPassword');
     if (confirmPswrdCtrl.errors == null || 'passwordMismatch' in confirmPswrdCtrl.errors) {
-      if (fb.get('Password').value != confirmPswrdCtrl.value)
+      if (fb.get('Password').value != confirmPswrdCtrl.value) {
         confirmPswrdCtrl.setErrors({ passwordMismatch: true });
-      else
+      } else {
         confirmPswrdCtrl.setErrors(null);
+      }
     }
   }
 
   register() {
-    var body = {
+    const body = {
       UserName: this.formModel.value.UserName,
       Email: this.formModel.value.Email,
       FullName: this.formModel.value.FullName,
       Password: this.formModel.value.Passwords.Password
     };
-    console.log(body);
-    return this.http.post(this.BaseURI + '/ApplicationUser/Registro', body);
+    return this.http.post(this.envUrl.urlAddress + '/api/ApplicationUser/Registro', body);
   }
   login(formData) {
-    return this.http.post(this.BaseURI + '/ApplicationUser/login', formData);
+    return this.http.post(this.envUrl.urlAddress + '/api/ApplicationUser/login', formData);
   }
   getPerfilUsuario(){
 
-    return this.http.get<UserProfile>(this.BaseURI + '/PerfilUsuario');
+    return this.http.get<UserProfile>(this.envUrl.urlAddress + '/api/PerfilUsuario');
   }
   roleMatch(allowedRoles): boolean {
-    var isMatch = false;
-    var payLoad = JSON.parse(window.atob(localStorage.getItem('token').split('.')[1]));
-    var userRole = payLoad.role;
+    let isMatch = false;
+    let payLoad = JSON.parse(window.atob(localStorage.getItem('token').split('.')[1]));
+    let userRole = payLoad.role;
     allowedRoles.forEach(element => {
-      if (userRole == element) {
+      if (userRole === element) {
         isMatch = true;
         return false;
       }

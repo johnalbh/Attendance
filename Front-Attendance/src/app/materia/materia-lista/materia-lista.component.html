@@ -39,8 +39,7 @@
             <tbody>
               <tr *ngFor="let materia of materias">
                 <td>{{materia.nombre}}</td>
-    
-                <td><button type="button" id="update" class="btn btn-success">Actualizar</button></td>
+                <td><button type="button" id="update"  class="btn btn-success " (click)= "editarMateria(materia.id)">Actualizar</button></td>
                 <td><button type="button" id="delete" class="btn btn-danger">Eliminar</button></td>
               </tr>
             </tbody>
@@ -49,5 +48,3 @@
     </div>
   </div>
 </div>
-
-
