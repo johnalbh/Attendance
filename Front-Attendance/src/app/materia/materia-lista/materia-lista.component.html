@@ -1,50 +1,37 @@
-<div class="col-xl-12 col-lg-12">
   <div class="card shadow mb-4">
     <!-- Card Header - Dropdown -->
     <div class="card-header py-3 d-flex flex-row bg-purple align-items-center justify-content-between">
       <h6 class="mb-0 text-white lh-100">Asignaturas</h6>
       <small class="text-white">Administración de las Asignaturas de la Universidad</small>
-      <div class="dropdown no-arrow">
-        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div ngbDropdown class="dropdown no-arrow">
+        <button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" #dropdownMenuLink ngbDropdownToggle>
           <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-        </a>
-        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-          <div class="dropdown-header">Dropdown Header:</div>
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        </button>
+        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+          <div class="dropdown-header">Acciones</div>
+          <a class="dropdown-item" href="#">Crear Materia</a>
         </div>
       </div>
     </div>
     
     <!-- Card Body -->
     <div class="card-body">
-      <div class="col-md-12 my-3 p-3 bg-white rounded shadow-sm">
-          
-        <app-upload></app-upload>
-        <div class="col-md-6 text-right">
-          <a href="#">Crear Materia</a>
-        </div>
+      <div class="col-md-12 my-3 ">
         <div class="table-responsive">
-            <h6 class="border-gray pb-2 mb-0">Lista de Asignaturas</h6>
           <table class="table table-striped">       
             <thead>
               <tr>
                <th>Nombre Asignatura</th>
-                <th>Grupo</th>
-                <th>Grupo</th>
+                <th>Acciones</th>
               </tr>
             </thead>
             <tbody>
               <tr *ngFor="let materia of materias">
                 <td>{{materia.nombre}}</td>
                 <td><button type="button" id="update"  class="btn btn-success " (click)= "editarMateria(materia.id)">Actualizar</button></td>
-                <td><button type="button" id="delete" class="btn btn-danger">Eliminar</button></td>
               </tr>
             </tbody>
           </table>
         </div>
     </div>
   </div>
-</div>

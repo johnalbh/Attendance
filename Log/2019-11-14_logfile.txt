@@ -1,0 +1,14 @@
+2019-11-14 00:07:01.3033 INFO Returned all owners from database.
+2019-11-14 00:07:01.6644 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ConsultaClaseDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-14 00:09:36.0270 INFO Returned all owners from database.
+2019-11-14 00:10:09.8171 INFO Returned all owners from database.
+2019-11-14 00:15:40.1642 INFO Returned all owners from database.
+2019-11-14 00:27:56.0276 INFO Returned all owners from database.
+2019-11-14 00:33:03.3191 INFO Returned all owners from database.
+2019-11-14 00:35:16.8491 INFO Returned all owners from database.
+2019-11-14 00:39:02.6880 INFO Returned all owners from database.
+2019-11-14 12:08:36.6920 INFO Returned all owners from database.

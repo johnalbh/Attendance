@@ -10,6 +10,7 @@ import { UserProfile } from 'src/app/_interfaces/user.model';
 })
 export class HeaderComponent implements OnInit {
   userDetalle: UserProfile = {    fullName : 'null-1',  email: 'null-2',  userName: 'null-3' };
+  private isOpen = '';
   constructor(private router: Router, private service: UserService) { }
 
   ngOnInit() {
@@ -26,6 +27,18 @@ export class HeaderComponent implements OnInit {
     localStorage.removeItem('token');
     this.router.navigate(['/user/login']);
     this.userDetalle = {    fullName : '',  email: '',  userName: '' };
+  }
+
+ 
+  
+  toggled(event) {
+    if (event) {
+        console.log('is open');
+        this.isOpen = 'is open'
+    } else {
+      console.log('is closed');
+      this.isOpen = 'is closed'
+    }
   }
 
 }

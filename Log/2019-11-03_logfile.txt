@@ -145,3 +145,4 @@
 2019-11-03 23:58:27.4983 INFO Regresa todas las materia de la Base de Datos.
 2019-11-03 23:58:43.1371 INFO Regresa todas las materia de la Base de Datos.
 2019-11-03 23:59:10.4218 INFO Regresa todas las materia de la Base de Datos.
+2019-11-03 23:59:51.0648 INFO Regresa todas las materia de la Base de Datos.

@@ -1,0 +1,7 @@
+2019-11-16 20:42:14.8720 INFO Regresa todas las materia de la Base de Datos.
+2019-11-16 20:42:15.9126 INFO Returned all owners from database.
+2019-11-16 22:56:36.5508 INFO Returned all owners from database.
+2019-11-16 22:57:44.9415 INFO Regresa todas las materia de la Base de Datos.
+2019-11-16 22:57:46.2694 INFO Returned all owners from database.
+2019-11-16 22:57:46.2939 INFO Regresa todas las materia de la Base de Datos.
+2019-11-16 23:45:18.5446 INFO Returned all owners from database.

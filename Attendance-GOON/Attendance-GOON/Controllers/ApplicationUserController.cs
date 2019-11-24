@@ -38,7 +38,7 @@ namespace Attendance_GOON.Controllers
         public async Task<Object> PostApplicationUser(ApplicationUserDTO model)
 
         {
-            model.Role = "Administrador";
+            model.Role = "Invitado";
             var applicationuser = new ApplicationUser()            
             {
                     UserName = model.UserName,

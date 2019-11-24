@@ -1,0 +1,34 @@
+2019-11-20 08:44:30.9692 ERROR Something went wrong inside GetAllOwners action: The entity type 'FuncionalidadRoles' requires a primary key to be defined.
+2019-11-20 08:48:07.4996 ERROR Something went wrong inside GetAllOwners action: The entity type 'FuncionalidadRoles' requires a primary key to be defined.
+2019-11-20 18:17:26.1265 ERROR Something went wrong inside GetAllOwners action: The entity type 'FuncionalidadRoles' requires a primary key to be defined.
+2019-11-20 18:23:10.4281 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-20 18:24:24.7499 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-20 18:25:24.2737 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-20 18:25:27.5378 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-20 18:27:20.8026 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-20 18:28:29.2860 INFO Returned all owners from database.
+2019-11-20 18:55:46.6910 INFO Returned all owners from database.
+2019-11-20 18:56:24.0214 INFO Returned all owners from database.
+2019-11-20 19:35:39.8125 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:35:40.3924 INFO Returned all owners from database.
+2019-11-20 19:44:51.9104 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:47:40.0819 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:47:40.1451 INFO Returned all owners from database.
+2019-11-20 19:48:20.5635 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:48:29.1724 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:48:29.1724 INFO Returned all owners from database.
+2019-11-20 19:49:26.5058 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:49:28.7943 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:49:28.9133 INFO Returned all owners from database.
+2019-11-20 19:49:28.9233 INFO Returned all owners from database.
+2019-11-20 19:49:32.6716 INFO Returned all owners from database.
+2019-11-20 19:49:32.6783 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:49:32.7367 INFO Returned all owners from database.
+2019-11-20 19:52:20.1418 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:52:20.1800 INFO Returned all owners from database.
+2019-11-20 19:52:21.1231 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:52:22.5123 INFO Returned all owners from database.
+2019-11-20 19:52:39.1153 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 19:52:39.1552 INFO Returned all owners from database.
+2019-11-20 20:00:43.7259 INFO Regresa todas las materia de la Base de Datos.
+2019-11-20 20:01:27.4162 INFO Materia con el ID: 2

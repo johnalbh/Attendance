@@ -1,0 +1,31 @@
+2019-11-19 16:37:51.6425 INFO Returned all owners from database.
+2019-11-19 16:38:54.8365 INFO Returned all owners from database.
+2019-11-19 16:42:26.9164 INFO Returned all owners from database.
+2019-11-19 16:42:27.6112 INFO Regresa todas las materia de la Base de Datos.
+2019-11-19 17:16:11.6565 INFO Regresa todas las materia de la Base de Datos.
+2019-11-19 17:16:12.0656 INFO Returned all owners from database.
+2019-11-19 17:16:42.5680 INFO Returned all owners from database.
+2019-11-19 17:16:43.2941 INFO Regresa todas las materia de la Base de Datos.
+2019-11-19 19:16:09.4792 INFO Returned all owners from database.
+2019-11-19 19:16:38.5656 INFO Returned all owners from database.
+2019-11-19 19:16:38.7458 INFO Regresa todas las materia de la Base de Datos.
+2019-11-19 19:17:01.6729 INFO Regresa todas las materia de la Base de Datos.
+2019-11-19 19:17:01.8284 INFO Returned all owners from database.
+2019-11-19 19:20:56.0117 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-19 19:21:56.0378 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetRoleClaims' for entity type 'IdentityRoleClaim<string>' since it is being used for entity type 'AspNetRoleClaims' and there is no relationship between their primary keys.
+2019-11-19 19:22:00.9732 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetRoleClaims' for entity type 'IdentityRoleClaim<string>' since it is being used for entity type 'AspNetRoleClaims' and there is no relationship between their primary keys.
+2019-11-19 19:23:31.2210 ERROR Something went wrong inside GetAllOwners action: The entity type 'RolFuncionalidad' requires a primary key to be defined.
+2019-11-19 19:25:26.8277 ERROR Something went wrong inside GetAllOwners action: The entity type 'RolFuncionalidad' requires a primary key to be defined.
+2019-11-19 19:26:02.8165 INFO Returned all owners from database.
+2019-11-19 19:28:04.8296 ERROR Something went wrong inside GetAllOwners action: The entity type 'RolFuncionalidad' requires a primary key to be defined.
+2019-11-19 19:32:22.1650 INFO Returned all owners from database.
+2019-11-19 19:59:25.0995 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-19 22:20:41.0516 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-19 22:27:27.8588 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-19 22:42:26.7542 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-19 22:42:27.0090 ERROR Algo paso al consultar las materias: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-19 23:02:09.5776 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-19 23:11:15.3066 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-19 23:13:44.5827 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-19 23:14:56.6917 INFO Returned all owners from database.
+2019-11-19 23:16:34.6553 ERROR Something went wrong inside GetAllOwners action: The entity type 'FuncionalidadRoles' requires a primary key to be defined.

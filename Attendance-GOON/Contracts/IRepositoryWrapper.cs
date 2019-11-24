@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Contracts
 {
@@ -9,6 +10,14 @@ namespace Contracts
         IPersonaRepository Persona { get; }
         IMateriaRepository Materia { get; }
         IProfesorRepository Profesor { get; }
-        void save();
+        IGrupoRepository Grupo { get;  }
+        IDominioRepository Dominio { get; }
+        IParametrosRepository Parametro { get; }
+        IHorarioRepository Horario { get; }
+        IHorarioConDiasRepository Horarios { get; }
+        IClasesRepository Clases { get;  }
+
+        IGrupoHorarioRepository GrupoHorario { get;  }
+        Task SaveAsync();
     }
 }

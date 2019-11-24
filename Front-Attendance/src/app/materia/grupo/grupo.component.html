@@ -1,0 +1,45 @@
+
+  <div class="card shadow mb-4">
+    <!-- Card Header - Dropdown -->
+    <div class="card-header py-3 d-flex flex-row bg-purple align-items-center justify-content-between">
+      <h6 class="mb-0 text-white lh-100">Grupos</h6>
+      <small class="text-white">Gestión Grupos</small>
+      <div class="dropdown no-arrow">
+        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" #dropdownMenuLink data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+          <div class="dropdown-header">Dropdown Header:</div>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card Body -->
+    <div class="card-body">
+      <div class="col-md-12 my-3 p-3 bg-white rounded shadow-sm">
+        <div class="col-md-6 text-right">
+          <a href="#">Crear Materia</a>
+        </div>
+        <div class="table-responsive">
+            <h6 class="border-gray pb-2 mb-0">Lista de Asignaturas</h6>
+          <table class="table table-striped">       
+            <thead>
+              <tr>
+               <th>Nombre Asignatura</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let grupo of grupos">
+                <td>{{grupo.id}}</td>
+                <td><button type="button" id="update"  class="btn btn-success " (click)= "editarMateria(materia.id)">Actualizar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </div>

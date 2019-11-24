@@ -9,6 +9,7 @@ namespace Entities.Models
         public int IdGrupo { get; set; }
         public int IdHorario { get; set; }
         public int IdFecha { get; set; }
+        public bool? Asistencia { get; set; }
 
         public virtual Calendario IdFechaNavigation { get; set; }
         public virtual GrupoHorario IdNavigation { get; set; }

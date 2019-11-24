@@ -1,0 +1,113 @@
+2019-11-04 00:00:04.7928 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:00:16.5234 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:01:44.3653 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:02:07.0505 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:18:34.8934 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:19:32.2177 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:23:08.4925 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:25:13.5716 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:25:20.4344 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:26:37.3090 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:31:22.5573 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:31:33.0424 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:31:52.5692 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:33:26.8115 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:33:50.6020 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:38:08.7190 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:39:33.6538 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:39:43.1378 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:40:04.0665 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:40:21.6052 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:41:00.2200 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:42:25.3148 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:42:39.4622 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:43:52.8623 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:49:06.7424 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:49:16.8386 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:55:41.7768 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:55:52.0648 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:58:09.2381 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:58:10.3223 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:58:19.7692 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:58:34.2784 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:58:43.0050 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 00:59:53.9239 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 01:00:03.0872 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 08:54:12.5244 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:04:45.5081 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:05:24.3839 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:13:03.2767 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:13:51.9632 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:14:04.2724 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:15:01.9327 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:15:19.7703 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:16:01.3108 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:16:22.8042 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:17:12.6821 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:18:10.2551 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:18:28.4809 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:18:52.4149 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:19:47.4702 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:20:47.1034 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:21:29.1078 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:22:25.3344 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:22:35.5887 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:24:22.9093 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:24:59.7118 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:26:53.8924 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:27:49.8911 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 09:27:51.0577 INFO Returned all owners from database.
+2019-11-04 09:27:55.7140 INFO Returned all owners from database.
+2019-11-04 09:46:50.7588 INFO Returned all grupos from database.
+2019-11-04 09:58:21.3080 INFO Returned all grupos from database.
+2019-11-04 14:32:41.3374 INFO Returned all grupos from database.
+2019-11-04 14:32:41.5492 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 14:38:13.9313 INFO Returned all grupos from database.
+2019-11-04 14:38:14.2310 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 14:40:46.9394 INFO Returned all grupos from database.
+2019-11-04 14:45:06.1079 INFO Returned all grupos from database.
+2019-11-04 14:45:06.5448 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 14:49:15.9385 INFO Returned all grupos from database.
+2019-11-04 14:49:16.3073 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 14:59:40.4490 INFO Returned all grupos from database.
+2019-11-04 14:59:40.5974 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 15:00:43.2394 INFO Returned all grupos from database.
+2019-11-04 15:00:43.5431 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-04 15:00:58.1251 INFO Returned all grupos from database.
+2019-11-04 15:36:12.5361 INFO Returned all grupos from database.
+2019-11-04 15:40:57.3845 INFO Returned all grupos from database.
+2019-11-04 15:44:45.2853 INFO Returned all grupos from database.
+2019-11-04 15:51:51.0872 INFO Returned all grupos from database.
+2019-11-04 15:56:37.5568 INFO Returned all grupos from database.
+2019-11-04 16:18:48.1418 INFO Returned all grupos from database.
+2019-11-04 17:12:44.2160 INFO Returned all grupos from database.
+2019-11-04 17:43:59.6186 INFO Returned all grupos from database.
+2019-11-04 17:58:29.6286 INFO Returned all grupos from database.
+2019-11-04 18:14:14.3095 INFO Returned all owners from database.
+2019-11-04 18:21:19.0183 INFO Returned all owners from database.
+2019-11-04 21:50:12.5533 INFO Regresa todas las materia de la Base de Datos.
+2019-11-04 23:21:31.9208 INFO Returned all owners from database.

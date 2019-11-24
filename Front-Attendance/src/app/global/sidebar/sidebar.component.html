@@ -12,11 +12,18 @@
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/home/dashboard']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact: true}">
+      <i class="fas fa-fw fa-tachometer-alt"></i><span>Inicio</span></a>
     <a class="nav-link" [routerLink]="['/home/materia']" routerLinkActive="active"
       [routerLinkActiveOptions]="{exact: true}">
       <i class="fas fa-fw fa-tachometer-alt"></i><span>Materia</span></a>
     <a class="nav-link" [routerLink]="['/home/profesores']">
       <i class="fas fa-fw fa-tachometer-alt"></i><span>Profesores</span></a>
+    <a class="nav-link" [routerLink]="['/administrador']">
+      <i class="fas fa-fw fa-tachometer-alt"></i><span>Administrador</span></a>
+    <a class="nav-link" [routerLink]="['/home/profesores/dashboard']">
+      <i class="fas fa-fw fa-tachometer-alt"></i><span>Marcar Asistencia</span></a>
   </li>
 
 
@@ -28,5 +35,7 @@
   <div class="text-center d-none d-md-inline">
     <button class="rounded-circle border-0" id="sidebarToggle"></button>
   </div>
-
 </ul>
+<div class="box-version">
+  <small class="version">Versión: {{version}}</small>
+</div>

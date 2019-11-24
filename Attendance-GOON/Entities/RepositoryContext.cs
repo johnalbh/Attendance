@@ -1,4 +1,5 @@
 ﻿using System;
+using Entities.DTO;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -7,38 +8,32 @@ namespace Entities.Models
 {
     public partial class RepositoryContext : IdentityDbContext
     {
-        public RepositoryContext(DbContextOptions options):base(options)
+
+        public RepositoryContext(DbContextOptions<RepositoryContext> options)
+            : base(options)
         {
-            
         }
         public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public virtual DbSet<Calendario> Calendario { get; set; }
         public virtual DbSet<Clase> Clase { get; set; }
         public virtual DbSet<Dominio> Dominio { get; set; }
+        public virtual DbSet<Funcionalidad> Funcionalidad { get; set; }
+        public virtual DbSet<FuncionalidadRoles> FuncionalidadRoles { get; set; }
         public virtual DbSet<Grupo> Grupo { get; set; }
         public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
         public virtual DbSet<Horario> Horario { get; set; }
         public virtual DbSet<Materia> Materia { get; set; }
+        public virtual DbSet<Parametro> Parametro { get; set; }
+        public virtual DbSet<PeriodoLectivo> PeriodoLectivo { get; set; }
         public virtual DbSet<Persona> Persona { get; set; }
         public virtual DbSet<Profesor> Profesor { get; set; }
-
-        // Unable to generate entity type for table 'dbo.Parametro'. Please see the warning messages.
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-NKKIOBJ\\SQLEXPRESS;Database=Attendance;Trusted_Connection=True; User Id=sa;Password=230488");
-            }
-        }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-       
-
             modelBuilder.HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
+            
             modelBuilder.Entity<Calendario>(entity =>
             {
                 entity.Property(e => e.Fecha).HasColumnType("date");
@@ -76,6 +71,43 @@ namespace Entities.Models
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Funcionalidad>(entity =>
+            {
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.Nombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Tipo)
+                    .IsRequired()
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Url)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<FuncionalidadRoles>(entity =>
+            {
+                entity.HasKey(e => new { e.IdFuncionalidad, e.IdRoles });
+
+                entity.Property(e => e.IdFuncionalidad).HasColumnName("idFuncionalidad");
+
+                entity.Property(e => e.IdRoles)
+                    .HasColumnName("idRoles")
+                    .HasMaxLength(200);
+
+                entity.HasOne(d => d.IdFuncionalidadNavigation)
+                    .WithMany(p => p.FuncionalidadRoles)
+                    .HasForeignKey(d => d.IdFuncionalidad)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_FuncionalidadRoles_Funcionalidad");
             });
 
             modelBuilder.Entity<Grupo>(entity =>
@@ -126,6 +158,34 @@ namespace Entities.Models
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Parametro>(entity =>
+            {
+                entity.HasKey(e => e.Codigo);
+
+                entity.Property(e => e.Codigo).ValueGeneratedNever();
+
+                entity.Property(e => e.Descripcion)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Valor)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<PeriodoLectivo>(entity =>
+            {
+                entity.Property(e => e.Descripcion)
+                    .IsRequired()
+                    .HasMaxLength(100);
+
+                entity.Property(e => e.FechaFinPeriodo).HasColumnType("date");
+
+                entity.Property(e => e.FechaInicioPeriodo).HasColumnType("date");
             });
 
             modelBuilder.Entity<Persona>(entity =>
@@ -186,6 +246,7 @@ namespace Entities.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Profesor_Persona");
             });
+            modelBuilder.Query<HorarioConDiaDTO>();
             base.OnModelCreating(modelBuilder);
         }
     }

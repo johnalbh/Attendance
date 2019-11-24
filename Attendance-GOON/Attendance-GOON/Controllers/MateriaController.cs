@@ -4,8 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using Contracts;
 using Entities.DTO;
+using Entities.DTO.Materia;
 using Entities.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
@@ -20,18 +22,41 @@ namespace Attendance_GOON.Controllers
     {
         private ILoggerManager _logger;
         private IRepositoryWrapper _repository;
-        public MateriaController(ILoggerManager logger, IRepositoryWrapper repository)
+        private IMapper _mapper;
+        public MateriaController(ILoggerManager logger, IRepositoryWrapper repository, IMapper mapper)
         {
             _logger = logger;
             _repository = repository;
+            _mapper = mapper;
+
         }
         // GET: api/Materia
+
+        #region GET
         [HttpGet]
         public async Task<IActionResult> GetAllMaterias()
         {
             try
             {
                 var materias = await _repository.Materia.GetAllMaterias();
+                _logger.LogInfo($"Regresa todas las materia de la Base de Datos.");
+                var ownerResult = _mapper.Map<IEnumerable<ConsultarMateriaGrupoSlimDTO>>(materias);
+                
+                return Ok(ownerResult);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Algo paso al consultar las materias: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("count")]
+        public async Task<IActionResult> CountAllMaterias()
+        {
+            try
+            {
+                var materias = await _repository.Materia.CountAllMaterias();
 
                 _logger.LogInfo($"Regresa todas las materia de la Base de Datos.");
 
@@ -58,8 +83,9 @@ namespace Attendance_GOON.Controllers
                 }
                 else
                 {
+                    var ownerResult = _mapper.Map<ConsultarMateriaGrupoSlimDTO>(materia);
                     _logger.LogInfo($"Materia con el ID: {Id_Materia}");
-                    return Ok(materia);
+                    return Ok(ownerResult);
                 }
             }
             catch (Exception ex)
@@ -68,6 +94,11 @@ namespace Attendance_GOON.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
+
+        #endregion
+
+        #region POST
         [HttpPost]
         public async Task<IActionResult> CreateMateria([FromBody]Materia materia)
         {
@@ -92,40 +123,6 @@ namespace Attendance_GOON.Controllers
             catch (Exception ex)
             {
                 _logger.LogError($"Algo fallo al crear una nueva Materia {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
-        }
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateMateria(int id, [FromBody]Materia materia)
-        {
-            try
-            {
-                if (materia == null)
-                {
-                    _logger.LogError("El objeto Materia esta Null.");
-                    return BadRequest("El objeto Materia es null");
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    _logger.LogError("Invalid owner object sent from client.");
-                    return BadRequest("Invalid model object");
-                }
-
-                var dbMateria = await _repository.Materia.GetMateriaById(id);
-                /* if (dbMateria.IsEmptyObject())
-                {
-                    _logger.LogError($"Owner with id: {id}, hasn't been found in db.");
-                    return NotFound();
-                }*/
-
-                await _repository.Materia.UpdateMateria(dbMateria, materia);
-
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Algo fallo al actualizar la Materia: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }
@@ -159,7 +156,7 @@ namespace Attendance_GOON.Controllers
                         list.Add(new Materia
                         {
                             Nombre = worksheet.Cells[row, 1].Value.ToString().Trim()
-                            
+
                         });
                     }
                 }
@@ -177,10 +174,52 @@ namespace Attendance_GOON.Controllers
                 }
             }
 
-            
+
             // here just read and return  
 
             return ReponseExcel<List<Materia>>.GetResult(0, "OK", list);
         }
+
+        #endregion
+
+        #region PUT
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateMateria(int id, [FromBody]Materia materia)
+        {
+            try
+            {
+                if (materia == null)
+                {
+                    _logger.LogError("El objeto Materia esta Null.");
+                    return BadRequest("El objeto Materia es null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Invalid owner object sent from client.");
+                    return BadRequest("Invalid model object");
+                }
+
+                var dbMateria = await _repository.Materia.GetMateriaById(id);
+                /* if (dbMateria.IsEmptyObject())
+                {
+                    _logger.LogError($"Owner with id: {id}, hasn't been found in db.");
+                    return NotFound();
+                }*/
+
+                await _repository.Materia.UpdateMateria(dbMateria, materia);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Algo fallo al actualizar la Materia: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+
+        #endregion
+
     }
 }

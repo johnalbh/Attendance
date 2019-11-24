@@ -14,10 +14,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthInterceptor } from './auth/auth.interceptor';
-import { AdministradorComponent } from './administrador/administrador.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { EditarMateriaComponent } from './materia/editar-materia/editar-materia.component';
 
 
 @NgModule({
@@ -25,7 +22,6 @@ import { EditarMateriaComponent } from './materia/editar-materia/editar-materia.
     AppComponent,
     NotFoundComponent,
     InternalServerComponent,
-    AdministradorComponent,
     ForbiddenComponent
   ],
   imports: [
@@ -37,7 +33,7 @@ import { EditarMateriaComponent } from './materia/editar-materia/editar-materia.
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
     ReactiveFormsModule,
-   
+
   ],
   providers: [EnvironmentUrlService, RepositoryService, ErrorHandlerService, UserService, {
     provide: HTTP_INTERCEPTORS,

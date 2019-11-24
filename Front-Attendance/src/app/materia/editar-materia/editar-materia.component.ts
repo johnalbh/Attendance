@@ -26,13 +26,12 @@ export class EditarMateriaComponent implements OnInit {
     this._materiaForm = this._formBuilder.group({
       Nombre: [this.materia.nombre]
     });
-    console.log(this.materia);
   }
 
   public onSubmit() {
+    
     this.repository.update(this.apiAddress + '/' + this.materia.id, this._materiaForm.value)
       .subscribe(res => {
-        console.log(res);
 
       },
         (error) => {
@@ -40,6 +39,7 @@ export class EditarMateriaComponent implements OnInit {
           this.errorMessage = this.errorHandler.errorMessage;
         }
       )
+      this.activeModal.close();
   }
   onDismiss(reason : String):void {
     this.activeModal.dismiss(reason);

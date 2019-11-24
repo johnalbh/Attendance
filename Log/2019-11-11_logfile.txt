@@ -1,0 +1,266 @@
+2019-11-11 14:15:07.7445 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 14:31:27.1030 INFO Returned all owners from database.
+2019-11-11 14:57:13.9463 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 15:09:54.9576 INFO Returned all owners from database.
+2019-11-11 15:10:26.7909 INFO Returned all owners from database.
+2019-11-11 15:12:21.6044 INFO Returned all owners from database.
+2019-11-11 15:12:51.8574 INFO Returned all owners from database.
+2019-11-11 15:49:38.8274 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 15:51:13.5477 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:02:24.1695 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:02:24.1695 INFO Returned all owners from database.
+2019-11-11 16:02:35.3561 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:03:24.7361 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:03:52.8373 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:09:52.7942 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:10:17.8976 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:11:11.6527 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:14:35.9132 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:14:42.8905 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:15:12.4513 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:15:39.9439 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:18:24.8987 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:18:46.9714 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:45:52.5730 INFO Returned all owners from database.
+2019-11-11 16:45:52.5730 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:46:02.5405 INFO Returned all owners from database.
+2019-11-11 16:46:02.5567 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:48:40.6405 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:48:41.3964 INFO Returned all owners from database.
+2019-11-11 16:48:51.8758 INFO Returned all owners from database.
+2019-11-11 16:48:52.0244 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:49:06.7298 INFO Returned all owners from database.
+2019-11-11 16:49:07.2239 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:49:37.8656 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:49:38.2642 INFO Returned all owners from database.
+2019-11-11 16:52:33.6908 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:52:33.7086 INFO Returned all owners from database.
+2019-11-11 16:52:45.2201 INFO Returned all owners from database.
+2019-11-11 16:52:45.2201 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:54:02.6019 INFO Returned all owners from database.
+2019-11-11 16:54:02.8447 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:54:41.7966 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:54:41.8757 INFO Returned all owners from database.
+2019-11-11 16:55:21.5519 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:55:21.6333 INFO Returned all owners from database.
+2019-11-11 16:55:38.1609 INFO Returned all owners from database.
+2019-11-11 16:58:06.7821 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:58:06.8885 INFO Returned all owners from database.
+2019-11-11 16:58:52.1065 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:58:52.2537 INFO Returned all owners from database.
+2019-11-11 16:59:46.3363 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 16:59:46.3377 INFO Returned all owners from database.
+2019-11-11 17:00:59.3787 INFO Returned all owners from database.
+2019-11-11 17:00:59.4186 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:02:30.4915 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:02:30.5955 INFO Returned all owners from database.
+2019-11-11 17:03:46.8366 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:03:46.8998 INFO Returned all owners from database.
+2019-11-11 17:04:12.5950 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:04:12.6360 INFO Returned all owners from database.
+2019-11-11 17:04:53.3591 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:04:53.3591 INFO Returned all owners from database.
+2019-11-11 17:08:02.4345 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:08:02.4493 INFO Returned all owners from database.
+2019-11-11 17:08:20.1885 INFO Returned all owners from database.
+2019-11-11 17:08:20.5748 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:08:40.8198 INFO Returned all owners from database.
+2019-11-11 17:08:40.8352 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:40:22.6127 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:40:22.6504 INFO Returned all owners from database.
+2019-11-11 17:41:11.3788 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:41:11.3855 INFO Returned all owners from database.
+2019-11-11 17:41:22.9150 INFO Returned all owners from database.
+2019-11-11 17:41:22.9663 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:48:04.8077 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 17:48:04.8533 INFO Returned all owners from database.
+2019-11-11 17:48:40.8719 INFO Returned all owners from database.
+2019-11-11 17:48:40.9702 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:08:33.8969 INFO Returned all owners from database.
+2019-11-11 18:08:33.9350 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:08:48.2315 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:08:48.2315 INFO Returned all owners from database.
+2019-11-11 18:12:01.3189 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:12:01.3735 INFO Returned all owners from database.
+2019-11-11 18:12:19.3517 INFO Returned all owners from database.
+2019-11-11 18:12:19.3541 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:13:25.4006 INFO Returned all owners from database.
+2019-11-11 18:13:25.4484 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:13:47.5843 INFO Returned all owners from database.
+2019-11-11 18:13:47.6211 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:13:56.0151 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:13:56.0151 INFO Returned all owners from database.
+2019-11-11 18:13:58.2071 INFO Returned all owners from database.
+2019-11-11 18:14:01.9799 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:14:01.9799 INFO Returned all owners from database.
+2019-11-11 18:14:37.9536 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:14:37.9724 INFO Returned all owners from database.
+2019-11-11 18:14:48.2405 INFO Returned all owners from database.
+2019-11-11 18:17:47.5517 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:17:47.5965 INFO Returned all owners from database.
+2019-11-11 18:18:44.6459 INFO Returned all owners from database.
+2019-11-11 18:18:44.6522 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:20:59.7432 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:20:59.7481 INFO Returned all owners from database.
+2019-11-11 18:21:10.3596 INFO Returned all owners from database.
+2019-11-11 18:21:10.3596 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:26:05.7542 INFO Returned all owners from database.
+2019-11-11 18:26:05.7542 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:26:13.9462 INFO Returned all owners from database.
+2019-11-11 18:26:13.9618 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:26:24.3931 INFO Returned all owners from database.
+2019-11-11 18:26:24.3931 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:27:21.6104 INFO Returned all owners from database.
+2019-11-11 18:27:21.6776 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:29:19.3219 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:29:19.3228 INFO Returned all owners from database.
+2019-11-11 18:29:26.8192 INFO Returned all owners from database.
+2019-11-11 18:29:27.0109 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:29:46.0705 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:29:46.0866 INFO Returned all owners from database.
+2019-11-11 18:30:01.3218 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:30:01.3920 INFO Returned all owners from database.
+2019-11-11 18:31:14.9737 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:31:15.0230 INFO Returned all owners from database.
+2019-11-11 18:40:49.8145 INFO Returned all owners from database.
+2019-11-11 18:40:49.8429 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:41:00.1646 INFO Returned all owners from database.
+2019-11-11 18:41:00.2402 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:41:14.4472 INFO Returned all owners from database.
+2019-11-11 18:41:14.4694 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:45:09.5953 INFO Returned all owners from database.
+2019-11-11 18:45:19.2729 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:52:03.8214 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 18:52:14.6996 INFO Returned all owners from database.
+2019-11-11 19:20:14.3301 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:20:19.0834 INFO Returned all owners from database.
+2019-11-11 19:21:10.1172 INFO Returned all owners from database.
+2019-11-11 19:22:58.8692 INFO Returned all owners from database.
+2019-11-11 19:23:16.7186 INFO Returned all owners from database.
+2019-11-11 19:23:37.4151 INFO Returned all owners from database.
+2019-11-11 19:24:18.6372 INFO Returned all owners from database.
+2019-11-11 19:24:21.7683 INFO Returned all owners from database.
+2019-11-11 19:24:57.0033 INFO Returned all owners from database.
+2019-11-11 19:25:26.9306 INFO Returned all owners from database.
+2019-11-11 19:25:49.2306 INFO Returned all owners from database.
+2019-11-11 19:26:22.5930 INFO Returned all owners from database.
+2019-11-11 19:26:30.5247 INFO Returned all owners from database.
+2019-11-11 19:26:45.1678 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:26:47.6932 INFO Returned all owners from database.
+2019-11-11 19:26:49.3382 INFO Returned all parametros from database.
+2019-11-11 19:26:49.3441 INFO Returned all owners from database.
+2019-11-11 19:26:52.3864 INFO Returned all owners from database.
+2019-11-11 19:27:29.3207 INFO Returned all owners from database.
+2019-11-11 19:27:33.6498 INFO Returned all owners from database.
+2019-11-11 19:27:43.4415 INFO Returned all owners from database.
+2019-11-11 19:27:44.9892 INFO Returned all owners from database.
+2019-11-11 19:27:47.6304 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:27:48.6209 INFO Returned all owners from database.
+2019-11-11 19:29:06.6692 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:29:07.9777 INFO Returned all owners from database.
+2019-11-11 19:29:10.3602 INFO Returned all parametros from database.
+2019-11-11 19:29:10.3602 INFO Returned all owners from database.
+2019-11-11 19:29:12.1063 INFO Returned all owners from database.
+2019-11-11 19:29:44.8140 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:29:45.2561 INFO Returned all owners from database.
+2019-11-11 19:29:48.7477 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 19:29:49.3466 INFO Returned all owners from database.
+2019-11-11 19:46:31.9277 INFO Returned all owners from database.
+2019-11-11 20:22:51.8123 INFO Returned all owners from database.
+2019-11-11 20:23:08.5348 INFO Returned all owners from database.
+2019-11-11 20:27:15.5787 INFO Returned all owners from database.
+2019-11-11 20:27:21.5703 INFO Returned all owners from database.
+2019-11-11 20:30:57.9226 INFO Returned all owners from database.
+2019-11-11 20:31:08.5956 INFO Returned all owners from database.
+2019-11-11 20:31:13.9803 INFO Returned all owners from database.
+2019-11-11 20:32:05.0961 INFO Returned all owners from database.
+2019-11-11 20:32:18.8522 INFO Returned all owners from database.
+2019-11-11 20:36:47.1343 INFO Returned all owners from database.
+2019-11-11 20:36:59.8365 INFO Returned all owners from database.
+2019-11-11 20:37:06.0978 INFO Returned all owners from database.
+2019-11-11 20:37:31.6347 INFO Returned all owners from database.
+2019-11-11 20:37:37.3190 INFO Returned all owners from database.
+2019-11-11 20:39:32.3969 INFO Returned all owners from database.
+2019-11-11 20:39:38.6906 INFO Returned all owners from database.
+2019-11-11 20:39:42.3045 INFO Returned all owners from database.
+2019-11-11 20:40:50.0575 INFO Returned all owners from database.
+2019-11-11 20:42:31.2315 INFO Returned all owners from database.
+2019-11-11 20:43:25.5134 INFO Returned all owners from database.
+2019-11-11 20:43:41.1023 INFO Returned all owners from database.
+2019-11-11 20:43:59.1504 INFO Returned all owners from database.
+2019-11-11 20:44:08.2228 INFO Returned all owners from database.
+2019-11-11 20:45:20.1496 INFO Returned all owners from database.
+2019-11-11 20:45:48.8626 INFO Returned all owners from database.
+2019-11-11 20:47:20.7838 INFO Returned all owners from database.
+2019-11-11 20:47:27.0780 INFO Returned all owners from database.
+2019-11-11 20:48:51.5198 INFO Returned all owners from database.
+2019-11-11 20:48:57.6241 INFO Returned all owners from database.
+2019-11-11 20:49:13.8179 INFO Returned all owners from database.
+2019-11-11 20:49:21.2901 INFO Returned all owners from database.
+2019-11-11 20:49:26.8714 INFO Returned all owners from database.
+2019-11-11 20:49:39.8546 INFO Returned all owners from database.
+2019-11-11 20:49:59.7296 INFO Returned all owners from database.
+2019-11-11 20:50:40.7521 INFO Returned all owners from database.
+2019-11-11 20:51:02.7581 INFO Returned all owners from database.
+2019-11-11 20:51:29.0988 INFO Returned all owners from database.
+2019-11-11 20:52:13.6608 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 20:52:27.5624 INFO Returned all owners from database.
+2019-11-11 20:52:45.8047 INFO Returned all owners from database.
+2019-11-11 20:52:56.6208 INFO Returned all owners from database.
+2019-11-11 20:53:07.4833 INFO Returned all owners from database.
+2019-11-11 20:53:16.3067 INFO Returned all owners from database.
+2019-11-11 20:53:32.1767 INFO Returned all owners from database.
+2019-11-11 20:53:40.1998 INFO Returned all owners from database.
+2019-11-11 20:53:42.2139 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 20:53:45.5992 INFO Returned all owners from database.
+2019-11-11 20:54:13.5172 INFO Returned all owners from database.
+2019-11-11 20:54:15.1365 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 20:55:36.9794 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 20:56:07.3245 INFO Returned all owners from database.
+2019-11-11 20:56:09.7284 INFO Returned all owners from database.
+2019-11-11 20:56:09.7377 INFO Returned all parametros from database.
+2019-11-11 20:56:11.4253 INFO Returned all owners from database.
+2019-11-11 20:56:12.4171 INFO Returned all owners from database.
+2019-11-11 21:20:54.2251 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:20:55.6855 INFO Returned all owners from database.
+2019-11-11 21:41:04.3429 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:48:38.6711 INFO Returned all owners from database.
+2019-11-11 21:50:20.1351 INFO Returned all owners from database.
+2019-11-11 21:50:20.2695 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:50:38.3108 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:51:24.9943 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:51:30.4025 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 21:51:30.4417 INFO Returned all owners from database.
+2019-11-11 21:52:17.1845 INFO Returned all owners from database.
+2019-11-11 21:53:10.8598 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:05:03.0613 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:26:11.9830 INFO Returned all owners from database.
+2019-11-11 23:26:12.0565 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:27:08.2120 INFO Returned all owners from database.
+2019-11-11 23:27:08.2120 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:46:58.4140 INFO Returned all owners from database.
+2019-11-11 23:46:58.4823 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:47:36.3397 INFO Returned all owners from database.
+2019-11-11 23:47:36.3397 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:49:19.6487 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:49:19.6955 INFO Returned all owners from database.
+2019-11-11 23:49:30.4446 INFO Returned all owners from database.
+2019-11-11 23:49:30.5276 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:50:00.2294 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:50:00.2294 INFO Returned all owners from database.
+2019-11-11 23:50:38.3875 INFO Returned all owners from database.
+2019-11-11 23:50:38.6008 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:51:47.1567 INFO Returned all owners from database.
+2019-11-11 23:51:47.2141 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:52:56.9964 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:52:56.9964 INFO Returned all owners from database.
+2019-11-11 23:53:37.2147 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:53:37.3489 INFO Returned all owners from database.
+2019-11-11 23:54:25.0267 INFO Returned all owners from database.
+2019-11-11 23:54:25.1104 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:55:00.3638 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:55:00.3638 INFO Returned all owners from database.
+2019-11-11 23:55:16.2290 INFO Returned all owners from database.
+2019-11-11 23:55:16.6103 INFO Regresa todas las materia de la Base de Datos.
+2019-11-11 23:57:37.3272 INFO Returned all owners from database.
+2019-11-11 23:57:38.3505 INFO Regresa todas las materia de la Base de Datos.

@@ -1,0 +1,96 @@
+<form [formGroup]="_profesorForm" (submit)="onSubmit()">
+    <div class="modal-header bg-header-modal">
+        <h4 class="modal-title" id="modal-basic-title">Actualizar Profesor</h4>
+        <button type="button" class="close" aria-label="Close" (click)="onDismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>{{profesor.persona.primerNombre}} {{profesor.persona.segundoNombre}}
+                                {{profesor.persona.primerApellido}} {{profesor.persona.segundoApellido}}</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="first">Tipo de Identificación</label>
+                                <input type="text" formControlName="TipoIdentificacion" class="form-control"
+                                    placeholder="" id="first">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="first">Número de Identificación</label>
+                                    <input type="text" formControlName="NumeroIdentificacion" class="form-control"
+                                        placeholder="" id="first">
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+                    <img class="rounded-sm" src="http://amarilloweb.cloudapp.net/Content/img/siluetaHombre.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="first">Primer Nombre</label>
+                        <input type="text" formControlName="PrimeroNombre" class="form-control" placeholder=""
+                            id="first">
+                    </div>
+                </div>
+                <!--  col-md-6   -->
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="last">Segundo Nombre</label>
+                        <input type="text" formControlName="SegundoNombre" class="form-control" placeholder=""
+                            id="last">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="last">Primer Apellido</label>
+                        <input type="text" formControlName="PrimeroApellido" class="form-control" placeholder=""
+                            id="last">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="last">Segundo Apellido</label>
+                        <input type="text" formControlName="SegundoApellido" class="form-control" placeholder=""
+                            id="last">
+                    </div>
+                </div>
+                <!--  col-md-6   -->
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="first">Fecha de Nacimiento</label>
+                        <input type="text" formControlName="FechaNacimiento" class="form-control" placeholder=""
+                            id="first">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="first">Fecha de Ingreso</label>
+                        <input type="text" formControlName="FechaIngreso" class="form-control" placeholder=""
+                            id="first">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" (click)="onClose()" class="btn bg-azul-claro">Cancelar</button>
+        <button type="submit" class="btn btn-outline-dark">Editar</button>
+    </div>
+</form>

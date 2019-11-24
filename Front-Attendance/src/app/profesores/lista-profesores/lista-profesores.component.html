@@ -4,51 +4,40 @@
           <div class="card-header py-3 d-flex flex-row bg-purple align-items-center justify-content-between">
             <h6 class="mb-0 text-white lh-100">Lista de Profesores</h6>
             <small class="text-white">Administración Docentes de la Universidad</small>
-            <div class="dropdown no-arrow">
-              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                <div class="dropdown-header">Dropdown Header:</div>
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+            <div ngbDropdown class="dropdown no-arrow">
+              <button class="btn text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" #dropdownMenuLink ngbDropdownToggle>
+                Acciones <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+              </button>
+              <div ngbDropdownMenu  class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-header">¿Que hacer?:</div>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" (click)="crearProfesor()">Crear Docente</a>
               </div>
             </div>
           </div>
           <!-- Card Body -->
           <div class="card-body">
-            <div class="col-md-12 my-3 p-3 bg-white rounded shadow-sm">
-              <div class="col-md-12 text-right">
-                <a href="#">Crear Docente</a>
-              </div>
+            <div class="col-md-12 my-3">
               <div class="table-responsive">
-                  <h6 class="border-gray pb-2 mb-0">Lista de Docentes</h6>
                 <table class="table table-striped">       
                   <thead>
                     <tr>
                       <th>Identificación</th>
-                      <th>Primer Apellido</th>
-                      <th>Segundo Apellido</th>
-                      <th>Primer Nombre</th>
-                      <th>Segundo Nombre</th>
+                      <th>Apellidos</th>
+                      <th>Nombres</th>
                       <th>Fecha de Ingreso</th>
                       <th>Editar </th>
-                      <th>Eliminar</th>
+
                     </tr>
                   </thead>
                   <tbody>
                     <tr *ngFor="let profesor of profesores">
                       <td>{{profesor.tipoIdentificacion}} {{profesor.numeroIdentificacion}}</td>
-                      <td>{{profesor.persona.primerApellido}}</td>
-                      <td>{{profesor.persona.segundoApellido}}</td>
-                      <td>{{profesor.persona.primerNombre}}</td>
-                      <td>{{profesor.persona.segundoNombre}}</td>
+                      <td>{{profesor.persona.primerApellido}} {{profesor.persona.segundoApellido}}</td>
+                      <td>{{profesor.persona.primerNombre}} {{profesor.persona.segundoNombre}}</td>
                       <td>{{profesor.fechaIngreso}}</td>
 
-                      <td><button type="button" id="update" class="btn btn-success">Actualizar</button></td>
-                      <td><button type="button" id="delete" class="btn btn-danger">Eliminar</button></td>
+                      <td><button type="button" id="update" class="btn btn-success" (click)="editarProfesor(profesor.tipoIdentificacion, profesor.numeroIdentificacion )">Actualizar</button></td>
                     </tr>
                   </tbody>
                 </table>

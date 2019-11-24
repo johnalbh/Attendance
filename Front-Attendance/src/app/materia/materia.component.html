@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-md-8">
+        <h1 class="h3 mb-0 text-gray-800">Gestión de Materias y Cursos</h1>
+    </div>
+    <div class="col-xl-4 col-md-4 mb-4">
+       <div class="d-sm-flex align-items-center justify-content-end ">
+            <button (click)="crearGrupo()" class="btn btn-primary btn-icon-split btn-sm mr-1">
+                <span class="text-white text">Crear Grupo</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+    <!-- Area Chart -->
+    <div class="col-xl-8 col-lg-8">
+        <app-materia-lista></app-materia-lista>
+    </div>
+    <!-- Pie Chart -->
+    <div class="col-xl-4 col-lg-5">
+        <app-upload></app-upload>
+
+
+    </div>
+</div>

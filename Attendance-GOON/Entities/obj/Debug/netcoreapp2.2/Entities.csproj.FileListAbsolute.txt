@@ -1,11 +1,11 @@
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\bin\Debug\netcoreapp2.2\Entities.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CopyComplete
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.dll
 C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
-C:\Users\johna\OneDrive\Escritorio\Attendance\Attendance-GOON\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache

@@ -12,7 +12,6 @@ namespace Entities.Models
 
         public int IdGrupo { get; set; }
         public int IdHorario { get; set; }
-        public bool Asistencia { get; set; }
 
         public virtual Grupo IdGrupoNavigation { get; set; }
         public virtual Horario IdHorarioNavigation { get; set; }

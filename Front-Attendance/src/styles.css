@@ -1,3 +1,6 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
 /* You can add global styles to this file, and also import other style files */
 html,
 body {
@@ -167,4 +170,15 @@ button.btn-submit:focus,button.btn-submit:hover{
 .bg-azul-claro {
   color: #fff;
   background: #3d9ae0;
+}
+.bg-header-modal,
+.modal-content {
+  border: none !Important;
+}
+.btn-icon-split {
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: stretch;
+  justify-content: center;
 }

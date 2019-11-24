@@ -1,0 +1,130 @@
+2019-11-17 00:35:39.2315 INFO Returned all owners from database.
+2019-11-17 00:46:05.1227 INFO Returned all owners from database.
+2019-11-17 01:03:42.4685 INFO Returned all owners from database.
+2019-11-17 01:11:32.1755 INFO Returned all owners from database.
+2019-11-17 01:36:09.3885 INFO Returned all owners from database.
+2019-11-17 15:37:59.5147 INFO Returned all owners from database.
+2019-11-17 15:37:59.6015 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 15:56:23.2812 INFO Returned all owners from database.
+2019-11-17 15:56:23.5309 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ConsultaCalendarioSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 15:56:44.3796 INFO Returned all owners from database.
+2019-11-17 15:56:44.4413 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ConsultaCalendarioSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 15:57:06.5401 INFO Returned all owners from database.
+2019-11-17 15:57:06.6348 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ConsultaCalendarioSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 15:57:33.2468 INFO Returned all owners from database.
+2019-11-17 15:57:33.4982 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 15:58:35.3009 INFO Returned all owners from database.
+2019-11-17 15:58:35.6098 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 15:59:17.7166 INFO Returned all owners from database.
+2019-11-17 15:59:17.9809 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 16:02:22.5611 INFO Returned all owners from database.
+2019-11-17 16:08:50.6236 INFO Returned all owners from database.
+2019-11-17 16:08:51.0091 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 16:09:56.8452 INFO Returned all owners from database.
+2019-11-17 16:32:18.6373 INFO Returned all owners from database.
+2019-11-17 16:47:08.4716 INFO Returned all owners from database.
+2019-11-17 17:04:28.2470 INFO Returned all owners from database.
+2019-11-17 17:04:28.4571 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 17:06:54.7805 INFO Returned all owners from database.
+2019-11-17 17:20:03.6700 INFO Returned all owners from database.
+2019-11-17 17:20:03.8970 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 17:21:02.3280 INFO Returned all owners from database.
+2019-11-17 20:10:49.5592 INFO Returned all owners from database.
+2019-11-17 20:10:49.6414 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:11:20.1616 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:11:20.1847 INFO Returned all owners from database.
+2019-11-17 20:12:11.6070 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:12:11.6401 INFO Returned all owners from database.
+2019-11-17 20:13:48.4928 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:13:48.5458 INFO Returned all owners from database.
+2019-11-17 20:14:20.3865 INFO Returned all owners from database.
+2019-11-17 20:14:20.3865 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:14:35.7538 INFO Returned all owners from database.
+2019-11-17 20:14:35.8372 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:15:33.0909 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:15:33.1215 INFO Returned all owners from database.
+2019-11-17 20:16:23.4873 INFO Returned all owners from database.
+2019-11-17 20:16:23.7961 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 20:17:44.0918 ERROR Something went wrong inside GetAllOwners action: The property 'Calendario.Fecha' is of type 'Date' which is not supported by current database provider. Either change the property CLR type or ignore the property using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.
+2019-11-17 20:18:31.6548 INFO Returned all owners from database.
+2019-11-17 20:18:58.3040 INFO Returned all owners from database.
+2019-11-17 20:18:58.4336 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:19:07.7930 INFO Returned all owners from database.
+2019-11-17 20:19:07.8284 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:19:14.6628 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:19:14.7445 INFO Returned all owners from database.
+2019-11-17 20:22:09.4402 INFO Returned all owners from database.
+2019-11-17 20:22:16.1257 INFO Returned all owners from database.
+2019-11-17 20:24:38.4343 INFO Returned all owners from database.
+2019-11-17 20:24:38.6871 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 20:25:24.7004 INFO Returned all owners from database.
+2019-11-17 20:25:24.9321 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.Clase.ConsultaClaseSlimDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-17 20:25:59.6442 INFO Returned all owners from database.
+2019-11-17 20:26:17.0549 INFO Returned all owners from database.
+2019-11-17 20:26:17.1651 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:26:27.9982 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:26:28.2240 INFO Returned all owners from database.
+2019-11-17 20:26:31.5857 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:26:31.6478 INFO Returned all owners from database.
+2019-11-17 20:26:59.5133 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:26:59.5558 INFO Returned all owners from database.
+2019-11-17 20:27:17.8867 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:27:17.9863 INFO Returned all owners from database.
+2019-11-17 20:27:22.6424 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:27:22.6817 INFO Returned all owners from database.
+2019-11-17 20:28:51.1221 INFO Returned all owners from database.
+2019-11-17 20:29:42.0292 INFO Returned all owners from database.
+2019-11-17 20:29:52.1421 INFO Returned all owners from database.
+2019-11-17 20:29:52.3114 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:33:00.0166 INFO Returned all owners from database.
+2019-11-17 20:33:00.0166 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:33:09.3151 INFO Regresa todas las materia de la Base de Datos.
+2019-11-17 20:33:09.3379 INFO Returned all owners from database.

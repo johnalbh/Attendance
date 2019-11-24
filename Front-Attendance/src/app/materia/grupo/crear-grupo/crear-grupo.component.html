@@ -1,0 +1,101 @@
+<form [formGroup]="_materiaForm" (submit)="crearGrupo()">
+    <div class="modal-header bg-header-modal">
+        <h4 class="modal-title" id="modal-basic-title">Crear Grupo</h4>
+        <button type="button" class="close" aria-label="Close" (click)="onDismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-12">
+                    <label><small>Seleecionar Materia</small></label>
+                    <select class="form-control" formControlName="Materia" id="Materia">
+                        <option value='' selected disabled hidden>
+                            Seleccione ...
+                        </option>
+                        <option *ngFor="let materia of materias; let i = index" [value]="materias[i].id">
+                            {{materias[i].nombre}}
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-3 form-group">
+                    <label class="form-control-label"><small>Nombre Grupo</small></label>
+                    <input type="text" formControlName="Nombre"
+                        [ngClass]="{'is-invalid': _materiaForm.get('Nombre').dirty && !_materiaForm.get('Nombre').valid}"
+                        class="form-control">
+                    <small *ngIf="_materiaForm.controls['Nombre'].errors?.required" class=" invalid-feedback"> El nombre
+                        del grupo es necesario</small>
+                    <small *ngIf="_materiaForm.controls['Nombre'].errors?.minlength" class="invalid-feedback"> Mínimo 2
+                        caracteres</small>
+                </div>
+                <div class="col-md-3">
+                    <label><small>Número Horas</small></label>
+                    <input type="number" formControlName="NumeroHoras" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label><small>Agregar/Eliminar Días Semana</small></label>
+                    <div class="d-sm-flex align-items-center justify-content-start">
+                        <button class="btn btn-success btn-icon-split btn-sm" type="button" (click)="addDiaSemana()">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-plus"></i>
+                            </span> <span class="text"> Agregar Día</span></button>
+                        <button class="btn btn-danger btn-icon-split btn-sm" type="button"
+                            (click)="deleteDiaSemana(pointIndex)">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-minus"></i>
+                            </span> <span class="text"> Borrar Día</span></button>
+                    </div>
+                </div>
+            </div>
+            <div formArrayName="DiasSemana">
+                <div class="row" *ngFor="let item of diasSemana.controls; let pointIndex=index"
+                    [formGroupName]="pointIndex">
+                    <div class="col-md-4">
+                        <label><small>Día</small></label>
+                        <select class="form-control" formControlName="dia" id="dia"
+                            (change)="onSelect($event.target.value) ">
+                            <option value='' selected disabled hidden>
+                                Seleccione ...
+                            </option>
+                            <option *ngFor="let dia of ListadiasSemana; let i = index"
+                                [value]="ListadiasSemana[i].valor">
+                                {{ListadiasSemana[i].descripcion}}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label><small>Hora Inicio</small></label>
+                        <select class="form-control" formControlName="horaInicio" id="horaInicio">
+                            <option value='' selected disabled hidden>
+                                Seleccione ...
+                            </option>
+                            <option *ngFor="let hora of horarioConDiaInicio_1; let i = index"
+                                [value]="horarioConDiaInicio_1[i].dia">
+                                {{horarioConDiaInicio_1[i].horaInicio}}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label><small>Hora Fin</small></label>
+                        <select class="form-control" formControlName="horaFin" id="horaFin">
+                            <option value='' selected disabled hidden>
+                                Seleccione ...
+                            </option>
+                            <option *ngFor="let hora of horarioConDiaFin_2; let j = index"
+                                [value]="horarioConDiaFin_2[j].dia">
+                                {{horarioConDiaFin_2[j].horaFin}}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" (click)="onClose()" class="btn bg-azul-claro">Cancelar</button>
+        <button type="submit" class="btn btn-outline-dark">Editar</button>
+    </div>
+</form>

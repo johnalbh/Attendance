@@ -1,0 +1,358 @@
+2019-11-05 07:56:17.6221 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 07:59:27.8576 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:05:14.7960 INFO Returned all owners from database.
+2019-11-05 08:06:57.7254 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:07:19.3418 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:07:36.8004 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:07:59.9055 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:13:12.3261 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 08:13:53.6852 INFO Returned all owners from database.
+2019-11-05 08:14:11.1123 INFO Returned all owners from database.
+2019-11-05 08:17:09.5701 INFO Returned all owners from database.
+2019-11-05 08:17:40.6147 INFO Returned all owners from database.
+2019-11-05 08:18:21.9046 INFO Returned all owners from database.
+2019-11-05 08:19:56.8419 INFO Returned all owners from database.
+2019-11-05 08:19:58.6325 INFO Returned all owners from database.
+2019-11-05 08:20:16.1473 INFO Returned all owners from database.
+2019-11-05 08:20:55.5560 INFO Returned all owners from database.
+2019-11-05 08:21:02.8033 INFO Returned all owners from database.
+2019-11-05 08:22:39.1260 INFO Returned all owners from database.
+2019-11-05 08:22:45.9727 INFO Returned all owners from database.
+2019-11-05 08:49:23.0332 INFO Returned all owners from database.
+2019-11-05 08:51:27.3517 INFO Returned all owners from database.
+2019-11-05 08:51:49.9118 INFO Returned all owners from database.
+2019-11-05 08:52:00.2296 INFO Returned all owners from database.
+2019-11-05 08:52:39.5297 INFO Returned all owners from database.
+2019-11-05 08:53:16.8306 INFO Returned all owners from database.
+2019-11-05 08:53:38.9807 INFO Returned all owners from database.
+2019-11-05 08:55:34.9244 INFO Returned all owners from database.
+2019-11-05 08:55:38.4264 INFO Returned all owners from database.
+2019-11-05 08:55:49.1876 INFO Returned all owners from database.
+2019-11-05 08:56:07.4566 INFO Returned all owners from database.
+2019-11-05 09:02:40.1607 INFO Returned all owners from database.
+2019-11-05 09:03:16.7259 INFO Returned all owners from database.
+2019-11-05 09:03:35.5862 INFO Returned all owners from database.
+2019-11-05 09:04:20.8263 INFO Returned all owners from database.
+2019-11-05 09:04:25.6020 INFO Returned all owners from database.
+2019-11-05 09:04:49.7196 INFO Returned all owners from database.
+2019-11-05 09:27:40.6458 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:27:47.4044 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:28:39.0359 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:28:40.3609 INFO Returned all owners from database.
+2019-11-05 09:28:42.1485 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:29:40.1973 INFO Returned all owners from database.
+2019-11-05 09:29:42.2338 INFO Returned all owners from database.
+2019-11-05 09:29:50.8591 INFO Returned all owners from database.
+2019-11-05 09:29:55.4732 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:29:56.2621 INFO Returned all owners from database.
+2019-11-05 09:29:57.5120 INFO Returned all owners from database.
+2019-11-05 09:29:58.5598 INFO Returned all owners from database.
+2019-11-05 09:30:02.1942 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 09:30:03.3874 INFO Returned all owners from database.
+2019-11-05 09:30:14.2624 INFO Returned all owners from database.
+2019-11-05 10:28:55.1221 ERROR Something went wrong inside CreateOwner action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DominioDTO -> Dominio
+Entities.DTO.DominioDTO -> Entities.Models.Dominio
+2019-11-05 10:35:10.0269 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-11-05 10:38:06.2542 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-11-05 10:38:19.2347 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-11-05 10:48:44.6015 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-11-05 11:27:44.5234 INFO Returned all owners from database.
+2019-11-05 11:33:36.6906 INFO Returned all owners from database.
+2019-11-05 11:33:47.8749 INFO Returned all owners from database.
+2019-11-05 11:34:11.7684 INFO Returned all owners from database.
+2019-11-05 11:40:50.0286 INFO Returned all owners from database.
+2019-11-05 11:41:38.9302 INFO Returned all owners from database.
+2019-11-05 11:44:36.3724 INFO Returned all owners from database.
+2019-11-05 11:47:49.7673 INFO Returned all owners from database.
+2019-11-05 11:47:49.8227 INFO Returned all owners from database.
+2019-11-05 11:48:10.8307 INFO Returned all owners from database.
+2019-11-05 11:48:10.8985 INFO Returned all owners from database.
+2019-11-05 11:48:46.3179 INFO Returned all owners from database.
+2019-11-05 11:48:46.4001 INFO Returned all owners from database.
+2019-11-05 11:49:50.3376 INFO Returned all owners from database.
+2019-11-05 11:50:25.0229 INFO Returned all owners from database.
+2019-11-05 11:51:13.9475 INFO Returned all owners from database.
+2019-11-05 11:51:50.9190 INFO Returned all owners from database.
+2019-11-05 11:52:14.2468 INFO Returned all owners from database.
+2019-11-05 11:52:43.4827 INFO Returned all owners from database.
+2019-11-05 11:53:01.1333 INFO Returned all owners from database.
+2019-11-05 11:53:29.3118 INFO Returned all owners from database.
+2019-11-05 11:57:00.3616 INFO Returned all owners from database.
+2019-11-05 11:57:10.6016 INFO Returned all owners from database.
+2019-11-05 11:57:18.1366 INFO Returned all owners from database.
+2019-11-05 11:57:28.2118 INFO Returned all owners from database.
+2019-11-05 11:58:03.3232 INFO Returned all owners from database.
+2019-11-05 11:59:12.8079 INFO Returned all owners from database.
+2019-11-05 12:00:27.9235 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:00:34.2578 INFO Returned all owners from database.
+2019-11-05 12:00:36.7664 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:02:00.8579 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:02:31.7910 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:02:41.1460 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:03:11.3583 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:03:25.9752 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:03:54.7839 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:04:20.3509 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:04:40.4892 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:04:46.6269 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 12:04:52.3181 INFO Returned all owners from database.
+2019-11-05 12:04:54.6489 INFO Returned all owners from database.
+2019-11-05 15:31:19.2507 INFO Returned all owners from database.
+2019-11-05 16:33:43.9639 INFO Returned all parametros from database.
+2019-11-05 16:39:08.9219 INFO Returned all parametros from database.
+2019-11-05 16:39:09.1864 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Parametro, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ParametroDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 16:40:39.3606 INFO Returned all parametros from database.
+2019-11-05 16:40:39.5714 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Parametro, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ParametroDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 16:41:20.7194 INFO Returned all parametros from database.
+2019-11-05 16:45:38.3078 INFO Returned all parametros from database.
+2019-11-05 16:45:38.5908 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Parametro, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ParametroDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 16:46:09.8351 INFO Returned all parametros from database.
+2019-11-05 16:46:09.9767 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Parametro, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ParametroDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 16:52:14.8431 INFO Returned owner with id: Entities.Models.Parametro
+2019-11-05 16:52:15.0514 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Parametro -> ParametroDTO
+Entities.Models.Parametro -> Entities.DTO.ParametroDTO
+2019-11-05 16:54:32.9036 INFO Returned owner with id: Entities.Models.Parametro
+2019-11-05 16:54:40.7389 INFO Returned all parametros from database.
+2019-11-05 17:23:35.2343 INFO Returned all parametros from database.
+2019-11-05 17:32:18.9093 INFO Returned all parametros from database.
+2019-11-05 17:37:12.9674 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 17:37:15.5627 INFO Returned all owners from database.
+2019-11-05 17:37:50.2852 INFO Returned all owners from database.
+2019-11-05 17:37:50.5463 INFO Returned all owners from database.
+2019-11-05 17:38:12.2142 INFO Returned all owners from database.
+2019-11-05 17:38:12.4120 ERROR Something went wrong inside GetAllOwners action: Cannot create a DbSet for 'Parametro' because this type is not included in the model for the context.
+2019-11-05 17:38:30.3937 ERROR Something went wrong inside GetAllOwners action: Cannot create a DbSet for 'Parametro' because this type is not included in the model for the context.
+2019-11-05 17:38:30.3937 INFO Returned all owners from database.
+2019-11-05 17:39:04.0626 ERROR Something went wrong inside GetAllOwners action: Cannot create a DbSet for 'Parametro' because this type is not included in the model for the context.
+2019-11-05 17:40:48.5273 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 17:40:48.5273 INFO Returned all owners from database.
+2019-11-05 17:40:48.5273 INFO Returned all parametros from database.
+2019-11-05 17:42:58.8466 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 17:43:30.1720 INFO Returned all parametros from database.
+2019-11-05 17:43:30.1720 INFO Returned all owners from database.
+2019-11-05 17:44:19.8889 INFO Returned all owners from database.
+2019-11-05 17:44:19.8889 INFO Returned all parametros from database.
+2019-11-05 17:45:21.2630 INFO Returned all parametros from database.
+2019-11-05 17:45:21.2630 INFO Returned all owners from database.
+2019-11-05 17:45:29.6092 INFO Returned all owners from database.
+2019-11-05 17:45:29.6092 INFO Returned all parametros from database.
+2019-11-05 17:45:40.2846 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 17:49:14.1353 INFO Returned all grupos from database.
+2019-11-05 17:51:17.0265 INFO Returned all grupos from database.
+2019-11-05 17:51:17.2929 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 17:51:48.7031 INFO Returned all grupos from database.
+2019-11-05 17:51:48.7765 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 17:54:57.3416 INFO Returned all grupos from database.
+2019-11-05 17:54:57.6481 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 17:56:04.4159 INFO Returned all grupos from database.
+2019-11-05 17:56:04.6568 ERROR Something went wrong inside GetAllGrupos action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.GrupoRepository+<GetAllGrupos>d__1, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-05 17:58:46.5300 INFO Returned all grupos from database.
+2019-11-05 18:00:05.6622 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:05:07.9566 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:05:08.0163 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:07:08.2377 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:07:08.3507 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:07:17.1497 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:07:17.2231 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:07:18.6181 INFO Returned all owners from database.
+2019-11-05 18:07:18.6200 INFO Returned all parametros from database.
+2019-11-05 18:15:26.1881 INFO Returned all owners from database.
+2019-11-05 18:15:26.2049 INFO Returned all parametros from database.
+2019-11-05 18:16:08.7357 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:16:08.8841 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:16:20.6423 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:16:20.7885 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:19:10.3161 INFO Returned all owners from database.
+2019-11-05 18:19:10.3723 INFO Returned all parametros from database.
+2019-11-05 18:19:20.9708 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:19:21.4434 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:20:28.8389 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:29:16.8177 INFO Returned all parametros from database.
+2019-11-05 18:29:16.8498 INFO Returned all owners from database.
+2019-11-05 18:29:57.4794 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 18:29:57.7013 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:08:20.2799 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:08:20.3493 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:09:18.8561 INFO Returned all owners from database.
+2019-11-05 19:09:20.6317 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:09:20.6692 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:11:15.9047 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:11:15.9766 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:18:45.4202 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:18:45.4761 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:21:22.4913 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:21:22.5552 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:21:36.8299 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:21:37.1533 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:22:26.3935 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:23:25.1871 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:24:17.6663 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:25:02.4463 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:26:16.7125 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:26:29.1731 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:26:40.8838 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:27:19.7071 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:27:49.2012 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:33:52.6833 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:34:38.5481 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:34:59.9788 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:35:00.0851 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:35:23.1887 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:35:23.8215 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:35:38.7754 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:35:38.9197 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:36:20.2025 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:36:20.3117 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:37:02.7878 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:37:02.8358 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:37:22.4281 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:37:46.6661 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:37:46.7915 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:38:15.3614 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:38:15.5024 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:03.3676 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:03.4227 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:11.3108 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:11.4418 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:34.5274 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:42:34.6125 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:59:03.2678 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 19:59:03.3149 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:13:46.7525 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:13:46.8229 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:17:00.2551 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:17:00.3466 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:20:15.8071 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:20:15.8526 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:24:16.0490 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:24:16.1263 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:03.8608 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:03.9657 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:13.7890 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:13.8522 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:43.0478 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:25:43.1306 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:26:10.7727 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:26:10.9162 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:26:42.1799 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:26:42.2775 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:27:41.6168 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:27:41.7897 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:27:48.8207 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:27:48.9622 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:28:26.8010 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:28:26.8536 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:28:41.1940 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:28:41.3324 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:30:04.9295 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:30:05.0830 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:30:11.6083 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:30:11.7441 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:41:58.7727 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:41:58.9809 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:42:34.6952 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:42:34.7467 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:45:31.6315 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:45:31.6872 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:48:55.0763 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:48:55.1669 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:52:17.5584 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:52:17.6262 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:52:55.3637 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:52:55.5037 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:56:40.7408 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:56:40.8494 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:56:48.2404 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:56:48.3159 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:03.6891 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:03.8044 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:43.3060 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:43.3993 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:49.0951 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:57:49.2420 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:58:06.8555 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:58:06.9191 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:58:23.8917 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:58:24.0071 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:59:36.1473 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:59:36.2581 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:59:53.0502 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 22:59:53.1622 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:13:16.6186 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:13:16.6844 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:18:45.9299 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:18:46.1728 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:22.3109 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:22.3823 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:41.3022 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:41.4421 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:53.2569 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:19:53.3693 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:01.2311 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:01.3298 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:02.9977 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:18.5429 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:18.6440 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:50.9899 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:20:55.6441 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:21:34.3542 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:21:44.9107 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:22:20.4678 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:22:30.9639 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:23:26.5415 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:23:44.9177 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:24:42.1405 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:24:49.2856 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:25:51.8764 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:26:25.7290 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:26:27.1879 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:26:29.5884 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:27:18.5242 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:27:22.0422 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:27:22.9382 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:27:39.9755 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:27:42.0658 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:32:08.8902 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:32:18.0395 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:32:19.5857 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:32:29.9229 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:35:05.0548 INFO Regresa todas las materia de la Base de Datos.
+2019-11-05 23:35:06.3379 INFO Regresa todas las materia de la Base de Datos.

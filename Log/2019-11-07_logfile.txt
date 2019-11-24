@@ -1,0 +1,78 @@
+2019-11-07 18:16:47.4781 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:16:51.9673 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:19:32.0737 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:19:38.3544 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:20:23.6521 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:20:24.2061 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:20:39.8146 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:11.3510 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:21.3225 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:22.7779 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:42.0623 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:43.3984 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:53.0440 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:25:54.4195 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:26:05.3915 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:26:08.3329 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:26:09.1256 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:26:18.3087 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:26:19.5357 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:29:43.8729 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:29:49.1584 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:29:51.8482 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:29:56.2827 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:30:05.1613 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:30:07.0605 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:30:29.6742 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:32:14.9794 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:32:15.8976 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:32:35.3130 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:34:20.1439 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:34:21.6557 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:34:40.1345 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:37:26.5623 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:37:27.1521 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:48:14.7369 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:48:22.4356 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 18:48:23.2758 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:17:39.8492 INFO Returned all owners from database.
+2019-11-07 19:18:08.1287 INFO Returned all owners from database.
+2019-11-07 19:18:13.6492 INFO Returned all owners from database.
+2019-11-07 19:20:22.2773 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:22:38.4244 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:22:39.1701 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:22:39.5618 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:03.2576 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:06.6418 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:06.7291 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:56.0120 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:58.7378 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:23:58.7983 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:20.3479 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:21.7406 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:21.8086 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:52.1077 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:53.6918 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:24:53.8041 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:25:39.6878 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:26:34.6655 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:26:36.1610 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:26:36.1955 INFO Returned all owners from database.
+2019-11-07 19:27:14.9179 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:27:23.4834 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:27:23.5082 INFO Returned all owners from database.
+2019-11-07 19:28:26.4461 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:28:33.6455 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:28:34.5179 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:28:34.5773 INFO Returned all owners from database.
+2019-11-07 19:28:41.1354 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:28:41.1354 INFO Returned all owners from database.
+2019-11-07 19:29:08.4763 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:29:09.5217 INFO Regresa todas las materia de la Base de Datos.
+2019-11-07 19:29:09.5646 INFO Returned all owners from database.
+2019-11-07 19:39:45.8301 INFO Returned all owners from database.
+2019-11-07 22:02:36.0051 ERROR Something went wrong inside GetAllOwners action: Unable to cast object of type 'System.String' to type 'System.Int32'.
+2019-11-07 22:02:44.9765 ERROR Something went wrong inside GetAllOwners action: Unable to cast object of type 'System.String' to type 'System.Int32'.
+2019-11-07 22:09:49.0995 ERROR Something went wrong inside GetAllOwners action: Unable to cast object of type 'System.String' to type 'System.Int32'.
+2019-11-07 22:49:13.1431 ERROR Something went wrong inside GetAllOwners action: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+2019-11-07 22:51:07.9632 ERROR Something went wrong inside GetAllOwners action: Object of type 'System.String' cannot be converted to type 'System.Int32'.

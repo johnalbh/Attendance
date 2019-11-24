@@ -1,0 +1,35 @@
+2019-11-13 11:49:22.9362 INFO Returned all owners from database.
+2019-11-13 11:49:23.3865 ERROR Something went wrong inside GetAllOwners action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Clase, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.ClaseDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-13 11:50:37.5507 INFO Returned all owners from database.
+2019-11-13 12:07:03.3917 INFO Returned all owners from database.
+2019-11-13 12:11:48.2569 INFO Returned all owners from database.
+2019-11-13 12:13:38.1737 INFO Returned all owners from database.
+2019-11-13 12:16:36.9380 INFO Returned all owners from database.
+2019-11-13 12:20:32.2037 INFO Returned all owners from database.
+2019-11-13 12:22:47.4441 INFO Returned all owners from database.
+2019-11-13 19:43:17.6120 INFO Returned all owners from database.
+2019-11-13 19:47:09.0164 INFO Returned all owners from database.
+2019-11-13 19:49:32.8066 INFO Returned all owners from database.
+2019-11-13 19:51:32.2544 INFO Returned all owners from database.
+2019-11-13 19:52:42.2046 INFO Returned all owners from database.
+2019-11-13 19:53:45.7036 INFO Returned all owners from database.
+2019-11-13 19:55:07.8193 INFO Returned all owners from database.
+2019-11-13 19:56:42.7547 INFO Returned all owners from database.
+2019-11-13 19:57:30.7231 INFO Returned all owners from database.
+2019-11-13 19:57:46.2533 INFO Returned all owners from database.
+2019-11-13 23:09:05.9668 INFO Returned all owners from database.
+2019-11-13 23:09:05.9668 INFO Regresa todas las materia de la Base de Datos.
+2019-11-13 23:09:19.9317 INFO Returned all owners from database.
+2019-11-13 23:10:31.2212 INFO Returned all owners from database.
+2019-11-13 23:16:49.2467 INFO Returned all owners from database.
+2019-11-13 23:19:23.0160 INFO Returned all owners from database.
+2019-11-13 23:21:24.7975 INFO Returned all owners from database.
+2019-11-13 23:25:52.3477 INFO Returned all owners from database.
+2019-11-13 23:28:39.7733 INFO Returned all owners from database.
+2019-11-13 23:30:51.1656 INFO Returned all owners from database.
+2019-11-13 23:34:14.5201 INFO Returned all owners from database.
+2019-11-13 23:59:33.3993 INFO Returned all owners from database.

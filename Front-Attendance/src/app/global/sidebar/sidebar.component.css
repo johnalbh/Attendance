@@ -1,0 +1,9 @@
+.box-version{
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
+.version {
+
+    text-align: center;
+}

@@ -3,7 +3,8 @@ import { Materia } from 'src/app/_interfaces/materia.model';
 import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { ErrorHandlerService } from 'src/app/shared/services/error-handler.service';
 import { EditarMateriaComponent } from '../editar-materia/editar-materia.component';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { CrearGrupoComponent } from '../grupo/crear-grupo/crear-grupo.component';
 
 
 @Component({
@@ -12,9 +13,10 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./materia-lista.component.css']
 })
 export class MateriaListaComponent implements OnInit {
+
   public materias: Materia[];
   public errorMessage: string = '';
-  public apiAddress: string = "api/materia";
+  public apiAddress: string = 'api/materia';
   constructor(private repository: RepositoryService, private errorHandler: ErrorHandlerService, private ngbModalService: NgbModal) { }
 
   ngOnInit() {
@@ -37,6 +39,15 @@ export class MateriaListaComponent implements OnInit {
     // tslint:disable-next-line: max-line-length
     const modalRef = this.ngbModalService.open(EditarMateriaComponent);
     modalRef.componentInstance.materia = materia;
+    modalRef.result.then(
+      (result) => {
+
+      }, (reason) => {
+        
+      }
+    );
   }
+
+
 }
 

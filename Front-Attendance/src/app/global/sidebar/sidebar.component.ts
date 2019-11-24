@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
+import { Version } from 'src/environments/version';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  public version = Version.version;
   constructor() { }
 
   ngOnInit() {

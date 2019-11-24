@@ -1,0 +1,280 @@
+2019-11-21 09:20:14.1875 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 09:23:44.7463 INFO Returned all owners from database.
+2019-11-21 09:59:56.7693 INFO Returned owner with id: cc 1022347504
+2019-11-21 09:59:57.0001 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 09:59:59.4039 INFO Returned owner with id: cc 1022347505
+2019-11-21 09:59:59.4625 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:02:19.4411 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:02:19.6586 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:02:24.0251 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:02:24.0817 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:04:59.2208 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:04:59.3758 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:07:47.2705 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:07:47.4354 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:08:39.1600 INFO Returned all owners from database.
+2019-11-21 10:08:51.5913 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:08:51.7122 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:09:57.0602 INFO Returned owner with id: cc 1022347505
+2019-11-21 10:09:57.3939 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:14:20.7974 INFO Returned owner with id: 1022347504
+2019-11-21 10:14:20.9949 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:14:33.9678 INFO Returned owner with id: 1022347505
+2019-11-21 10:14:34.0261 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> ProfesorDTO
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.ProfesorRepository+<GetProfesorById>d__2, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ProfesorDTO
+2019-11-21 10:15:38.5182 INFO Returned owner with id: 1022347505
+2019-11-21 10:19:42.8630 INFO Returned owner with id: 1022347505
+2019-11-21 10:23:12.4540 INFO Returned owner with id: 1022347505
+2019-11-21 10:49:13.3470 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 10:49:26.2283 INFO Returned all owners from database.
+2019-11-21 10:50:13.4695 ERROR Something went wrong inside CreateOwner action: Error mapping types.
+
+Mapping types:
+CrearProfesorDTO -> Profesor
+Entities.DTO.Profesor.CrearProfesorDTO -> Entities.Models.Profesor
+
+Type Map configuration:
+CrearProfesorDTO -> Profesor
+Entities.DTO.Profesor.CrearProfesorDTO -> Entities.Models.Profesor
+
+Destination Member:
+Persona
+
+2019-11-21 10:52:24.5662 ERROR Something went wrong inside CreateOwner action: Error mapping types.
+
+Mapping types:
+CrearProfesorDTO -> Profesor
+Entities.DTO.Profesor.CrearProfesorDTO -> Entities.Models.Profesor
+
+Type Map configuration:
+CrearProfesorDTO -> Profesor
+Entities.DTO.Profesor.CrearProfesorDTO -> Entities.Models.Profesor
+
+Destination Member:
+Persona
+
+2019-11-21 12:04:46.8904 INFO Returned la persona con el número de identificación: 1022347509
+2019-11-21 12:05:33.9042 ERROR Something went wrong inside UpdateOwner action: Error mapping types.
+
+Mapping types:
+UpdateProfesorDTO -> Profesor
+Entities.DTO.Profesor.UpdateProfesorDTO -> Entities.Models.Profesor
+
+Type Map configuration:
+UpdateProfesorDTO -> Profesor
+Entities.DTO.Profesor.UpdateProfesorDTO -> Entities.Models.Profesor
+
+Destination Member:
+Persona
+
+2019-11-21 12:05:53.0607 ERROR Something went wrong inside UpdateOwner action: Error mapping types.
+
+Mapping types:
+UpdateProfesorDTO -> Profesor
+Entities.DTO.Profesor.UpdateProfesorDTO -> Entities.Models.Profesor
+
+Type Map configuration:
+UpdateProfesorDTO -> Profesor
+Entities.DTO.Profesor.UpdateProfesorDTO -> Entities.Models.Profesor
+
+Destination Member:
+Persona
+
+2019-11-21 12:25:04.0854 INFO Returned all grupos from database.
+2019-11-21 12:25:56.4270 INFO Returned all owners from database.
+2019-11-21 12:25:56.5259 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 12:25:58.2952 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 12:25:59.7425 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 12:25:59.8958 INFO Returned all owners from database.
+2019-11-21 12:25:59.8958 INFO Returned all owners from database.
+2019-11-21 12:29:27.9376 ERROR Algo paso al consultar las materias: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-21 12:31:28.9062 ERROR Algo paso al consultar las materias: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-21 12:32:34.2578 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 12:36:12.3212 INFO Returned all grupos from database.
+2019-11-21 12:37:22.2853 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 12:37:22.3741 INFO Returned all owners from database.
+2019-11-21 12:37:22.4364 INFO Returned all owners from database.
+2019-11-21 13:11:07.5644 INFO Returned all grupos from database.
+2019-11-21 13:15:30.5029 INFO Returned grupo with id: 3
+2019-11-21 13:15:34.2986 INFO Returned grupo with id: 1004
+2019-11-21 13:16:54.7166 INFO Returned grupo with id: 1004
+2019-11-21 15:22:46.2988 INFO Returned owner with id: 1
+2019-11-21 15:22:46.5011 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorarioRepository -> GrupoHorarioDTO
+Repository.GrupoHorarioRepository -> Entities.DTO.GrupoHorarioDTO
+2019-11-21 15:24:59.9286 INFO Returned owner with id: 3
+2019-11-21 15:25:00.1200 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorarioRepository -> GrupoHorarioDTO
+Repository.GrupoHorarioRepository -> Entities.DTO.GrupoHorarioDTO
+2019-11-21 15:26:27.2613 INFO Returned owner with id: 3
+2019-11-21 15:37:44.7205 INFO Returned owner with id: 3
+2019-11-21 15:37:44.8958 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorarioRepository -> GrupoHorarioDTO
+Repository.GrupoHorarioRepository -> Entities.DTO.GrupoHorarioDTO
+2019-11-21 15:37:53.3765 INFO Returned owner with id: 3
+2019-11-21 15:37:53.4413 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorarioRepository -> GrupoHorarioDTO
+Repository.GrupoHorarioRepository -> Entities.DTO.GrupoHorarioDTO
+2019-11-21 15:39:22.2554 INFO Returned owner with id: 3
+2019-11-21 16:04:20.8436 INFO Returned owner with id: 3
+2019-11-21 16:04:21.0096 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorarioRepository -> ConsultaGrupoHorarioDTO
+Repository.GrupoHorarioRepository -> Entities.DTO.Grupo.ConsultaGrupoHorarioDTO
+2019-11-21 16:08:26.3296 INFO Returned owner with id: 31
+2019-11-21 16:08:26.5044 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorario -> ConsultaGrupoHorarioDTO
+Entities.Models.GrupoHorario -> Entities.DTO.Grupo.ConsultaGrupoHorarioDTO
+2019-11-21 16:10:03.7975 INFO Returned owner with id: 31
+2019-11-21 16:10:03.9809 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GrupoHorario -> ConsultaGrupoHorarioDTO
+Entities.Models.GrupoHorario -> Entities.DTO.Grupo.ConsultaGrupoHorarioDTO
+2019-11-21 16:29:32.5826 INFO Returned grupo with id: 1004
+2019-11-21 16:30:06.1497 ERROR Owner with id: 0, hasn't been found in db.
+2019-11-21 16:32:37.7232 INFO Returned grupo with id: 1004
+2019-11-21 16:45:40.1926 INFO Returned all grupos from database.
+2019-11-21 16:46:08.1530 INFO Returned grupo with id: 6
+2019-11-21 16:46:20.0035 INFO Returned grupo with id: 6
+2019-11-21 16:46:46.5181 INFO Returned grupo with id: 6
+2019-11-21 16:47:05.5016 INFO Returned grupo with id: 6
+2019-11-21 16:47:11.6472 INFO Returned grupo with id: 6
+2019-11-21 16:47:16.4261 INFO Returned all grupos from database.
+2019-11-21 16:50:34.2662 INFO Returned grupo with id: 6
+2019-11-21 16:50:35.9874 INFO Returned grupo with id: 6
+2019-11-21 17:01:38.4444 INFO Returned all owners from database.
+2019-11-21 17:18:04.3813 INFO Returned all owners from database.
+2019-11-21 17:21:22.1932 INFO Returned all owners from database.
+2019-11-21 17:21:25.2203 INFO Returned all owners from database.
+2019-11-21 17:21:26.6939 INFO Returned all owners from database.
+2019-11-21 17:21:32.1325 INFO Returned all owners from database.
+2019-11-21 17:21:34.2217 INFO Returned all owners from database.
+2019-11-21 17:21:36.0973 INFO Returned all owners from database.
+2019-11-21 17:21:38.9093 INFO Returned all owners from database.
+2019-11-21 17:21:40.4186 INFO Returned all owners from database.
+2019-11-21 17:21:42.6705 INFO Returned all owners from database.
+2019-11-21 17:25:22.3529 INFO Returned all owners from database.
+2019-11-21 17:28:47.8750 INFO Returned all owners from database.
+2019-11-21 17:28:55.8843 INFO Returned all owners from database.
+2019-11-21 17:38:14.5785 INFO Regresa todas las materia de la Base de Datos.
+2019-11-21 17:38:28.4142 INFO Returned all grupos from database.
+2019-11-21 17:41:09.2545 INFO Returned all grupos from database.
+2019-11-21 17:49:14.0953 INFO Returned all grupos from database.
+2019-11-21 17:52:01.7509 INFO Returned all grupos from database.
+2019-11-21 17:52:02.0220 ERROR Something went wrong inside GetAllGrupos action: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Grupo, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO.GrupoDTO, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2019-11-21 17:53:03.1248 INFO Returned all grupos from database.
+2019-11-21 18:00:37.9186 INFO Returned all grupos from database.
+2019-11-21 18:02:18.5826 INFO Returned all grupos from database.
+2019-11-21 18:11:36.7372 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:19:09.5692 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:19:09.8657 ERROR Something went wrong inside GetOwnerById action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Profesor -> ProfesorWithMateriaDTO
+Entities.Models.Profesor -> Entities.DTO.Profesor.ProfesorWithMateriaDTO
+2019-11-21 18:19:59.9234 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:23:49.9564 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:23:50.1592 ERROR Something went wrong inside GetOwnerById action: Error mapping types.
+
+Mapping types:
+Profesor -> ProfesorWithMateriaDTO
+Entities.Models.Profesor -> Entities.DTO.Profesor.ProfesorWithMateriaDTO
+
+Type Map configuration:
+Profesor -> ProfesorWithMateriaDTO
+Entities.Models.Profesor -> Entities.DTO.Profesor.ProfesorWithMateriaDTO
+
+Destination Member:
+Grupo
+
+2019-11-21 18:28:13.1599 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:28:13.4116 ERROR Something went wrong inside GetOwnerById action: Error mapping types.
+
+Mapping types:
+Profesor -> ProfesorWithMateriaDTO
+Entities.Models.Profesor -> Entities.DTO.Profesor.ProfesorWithMateriaDTO
+
+Type Map configuration:
+Profesor -> ProfesorWithMateriaDTO
+Entities.Models.Profesor -> Entities.DTO.Profesor.ProfesorWithMateriaDTO
+
+Destination Member:
+Grupo
+
+2019-11-21 18:29:43.1455 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:31:24.3437 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:33:02.2037 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:35:12.5309 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:38:32.2032 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:41:36.0069 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:44:09.3306 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:46:43.3124 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:51:05.5485 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:51:22.8969 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:54:30.0026 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:55:54.0786 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-21 18:56:11.1859 INFO Returned la persona con el número de identificación: 1022347506
+2019-11-21 18:56:18.3823 INFO Returned la persona con el número de identificación: 1022347507
+2019-11-21 18:56:20.7017 INFO Returned la persona con el número de identificación: 1022347508
+2019-11-21 18:56:26.9446 INFO Returned la persona con el número de identificación: 1022347509
+2019-11-21 18:59:18.2794 INFO Returned all owners from database.
+2019-11-21 18:59:27.4829 INFO Returned all owners from database.
+2019-11-21 19:28:26.7444 INFO Returned all owners from database.
+2019-11-21 19:44:19.9800 INFO Returned all owners from database.
+2019-11-21 20:23:30.9074 INFO Returned all owners from database.
+2019-11-21 20:24:20.6094 INFO Returned all owners from database.

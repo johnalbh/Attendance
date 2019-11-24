@@ -1,0 +1,63 @@
+<div class="modal-header bg-header-modal">
+    <h4 class="modal-title" id="modal-basic-title">Información Clase</h4>
+    <button type="button" class="close" aria-label="Close" (click)="onDismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="first">Materia</label>
+                    <h4>{{clase.materia}}</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="first">Grupo</label>
+                    <h5>{{clase.grupo.detalleGrupo.numGrupo}}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="form-group">
+                    <label for="first">Fecha de Clase</label>
+                    <h5>{{clase.fechaClase}}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="first">Hora Inicio Clase</label>
+                    <h5>{{clase.horaInicio}}</h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="first">Hora Fin Clase</label>
+                    <h5>{{clase.horaFin}}</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" (click)="onClose()" class="btn btn-lg col-md-12 bg-success">
+                    <span class="text-white">Marcar
+                        Asistecia</span></button>
+            </div>
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-lg col-md-12 bg-danger">
+                    <span class="text-white">Cancenlar</span></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal-footer bg-header-modal">
+    <small class="text-white">Dirección Ip Actual: {{ipAddress}}</small>
+</div>
