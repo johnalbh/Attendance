@@ -10,7 +10,7 @@ import { UserProfile } from 'src/app/_interfaces/user.model';
 })
 export class HeaderComponent implements OnInit {
   userDetalle: UserProfile = {
-    NombreCompleto : 'null-1',
+    nombreCompleto : 'null-1',
     email: 'null-1',
     userName: 'null-1',
     tipoIdentificacion : 'null-1',
@@ -43,7 +43,7 @@ export class HeaderComponent implements OnInit {
     localStorage.removeItem('personaAttendance');
     this.router.navigate(['/user/login']);
     this.userDetalle = {
-      NombreCompleto : '',
+      nombreCompleto : '',
       email: '', 
       userName: '',
       tipoIdentificacion : '',

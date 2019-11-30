@@ -17,5 +17,5 @@ export class UserProfile {
     segundoNombre: string;
     tipoIdentificacion: string;
     urlFoto: string;
-    NombreCompleto: string;
+    nombreCompleto: string;
 }

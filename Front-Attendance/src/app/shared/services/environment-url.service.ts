@@ -5,6 +5,6 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class EnvironmentUrlService {
-  public urlAddress: string = environment.urlAddress;
+  public urlAddress: string = 'http://localhost:50250';
   constructor() { }
 }
