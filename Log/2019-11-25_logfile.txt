@@ -1,0 +1,6 @@
+2019-11-25 17:50:43.5890 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-25 18:01:28.2327 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-25 18:04:43.4440 INFO Returned all owners from database.
+2019-11-25 18:16:52.6648 ERROR Something went wrong inside GetAllOwners action: Cannot use table 'AspNetUsers' for entity type 'IdentityUser' since it is being used for entity type 'AspNetUsers' and there is no relationship between their primary keys.
+2019-11-25 18:28:30.5719 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-25 22:49:20.6022 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.

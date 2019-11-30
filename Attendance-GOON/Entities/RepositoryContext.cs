@@ -1,5 +1,4 @@
 ﻿using System;
-using Entities.DTO;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -8,17 +7,20 @@ namespace Entities.Models
 {
     public partial class RepositoryContext : IdentityDbContext
     {
+        public RepositoryContext()
+        {
+        }
 
         public RepositoryContext(DbContextOptions<RepositoryContext> options)
             : base(options)
         {
         }
-        public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public virtual DbSet<ApplicationUser> ApplicationUser { get; set; }
         public virtual DbSet<Calendario> Calendario { get; set; }
         public virtual DbSet<Clase> Clase { get; set; }
         public virtual DbSet<Dominio> Dominio { get; set; }
         public virtual DbSet<Funcionalidad> Funcionalidad { get; set; }
-        public virtual DbSet<FuncionalidadRoles> FuncionalidadRoles { get; set; }
         public virtual DbSet<Grupo> Grupo { get; set; }
         public virtual DbSet<GrupoHorario> GrupoHorario { get; set; }
         public virtual DbSet<Horario> Horario { get; set; }
@@ -33,7 +35,10 @@ namespace Entities.Models
         {
             modelBuilder.HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
-            
+    base.OnModelCreating(modelBuilder);
+
+
+
             modelBuilder.Entity<Calendario>(entity =>
             {
                 entity.Property(e => e.Fecha).HasColumnType("date");
@@ -93,22 +98,7 @@ namespace Entities.Models
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<FuncionalidadRoles>(entity =>
-            {
-                entity.HasKey(e => new { e.IdFuncionalidad, e.IdRoles });
 
-                entity.Property(e => e.IdFuncionalidad).HasColumnName("idFuncionalidad");
-
-                entity.Property(e => e.IdRoles)
-                    .HasColumnName("idRoles")
-                    .HasMaxLength(200);
-
-                entity.HasOne(d => d.IdFuncionalidadNavigation)
-                    .WithMany(p => p.FuncionalidadRoles)
-                    .HasForeignKey(d => d.IdFuncionalidad)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_FuncionalidadRoles_Funcionalidad");
-            });
 
             modelBuilder.Entity<Grupo>(entity =>
             {
@@ -200,7 +190,7 @@ namespace Entities.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FechaNacimiento).HasColumnType("date");
+                entity.Property(e => e.FechaNacimiento).HasColumnType("datetime");
 
                 entity.Property(e => e.PrimerApellido)
                     .IsRequired()
@@ -224,6 +214,8 @@ namespace Entities.Models
                     .IsRequired()
                     .HasMaxLength(100)
                     .IsUnicode(false);
+
+                entity.Property(e => e.UserId).HasMaxLength(200);
             });
 
             modelBuilder.Entity<Profesor>(entity =>
@@ -246,8 +238,6 @@ namespace Entities.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Profesor_Persona");
             });
-            modelBuilder.Query<HorarioConDiaDTO>();
-            base.OnModelCreating(modelBuilder);
         }
     }
 }

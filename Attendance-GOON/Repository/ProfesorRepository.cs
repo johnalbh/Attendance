@@ -20,7 +20,7 @@ namespace Repository
         public async Task<IEnumerable<Profesor>> GetAllProfesores()
         {
             // var result = await FindAll().OrderBy(profesor => profesor.Persona.PrimerApellido).ToListAsync();
-            return await RepositoryContext.Profesor.AsNoTracking().Include(persona => persona.Persona).Include(x => x.Persona.Profesor).ToListAsync();
+            return await RepositoryContext.Profesor.AsNoTracking().Include(persona => persona.Persona).ThenInclude(data => data.ApplicationUser).ToListAsync();
         }
 
         public async Task<Profesor> GetProfesorById(string tipoIdentificacion, string numeroIdentificacion)

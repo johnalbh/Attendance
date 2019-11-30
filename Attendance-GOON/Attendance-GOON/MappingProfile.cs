@@ -68,9 +68,10 @@ namespace Attendance_GOON
             CreateMap<Profesor, ProfesorWithMateriaDTO>();
             CreateMap<GrupoHorario, ConsultarGrupoHorarioGrupoSlimDTO>()
                 .ForMember(dest => dest.DetalleGrupo, opt => opt.MapFrom(src => src.IdGrupoNavigation)); ;
-            CreateMap<Grupo, ConsultarGrupoSimpleSlimDTO>()
+            CreateMap<Grupo, ConsultarGrupoSimpleSlimDTO>();
+            CreateMap<ApplicationUser, ApplicationUserSlimDTO>();
+            CreateMap<Persona, PersonaWithUserDTO>();
 
-                ;
             /* DTO Creación */
             CreateMap<CrearProfesorDTO, Profesor>();
             /* Actualizar */

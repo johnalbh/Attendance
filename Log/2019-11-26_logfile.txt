@@ -1,0 +1,15 @@
+2019-11-26 11:11:08.6788 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-26 13:47:52.8574 INFO Returned all owners from database.
+2019-11-26 23:31:57.0700 ERROR Something went wrong inside GetAllOwners action: Data is Null. This method or property cannot be called on Null values.
+2019-11-26 23:35:11.9446 INFO Returned all owners from database.
+2019-11-26 23:36:43.0661 ERROR Something went wrong inside GetAllOwners action: Data is Null. This method or property cannot be called on Null values.
+2019-11-26 23:37:57.8470 INFO Returned all owners from database.
+2019-11-26 23:39:22.7131 INFO Returned all owners from database.
+2019-11-26 23:41:05.8038 ERROR Something went wrong inside GetAllOwners action: The property 'Email' is not a navigation property of entity type 'ApplicationUser'. The 'Include(string)' method can only be used with a '.' separated list of navigation property names.
+2019-11-26 23:42:10.3413 ERROR Something went wrong inside GetAllOwners action: The property 'FullName' is not a navigation property of entity type 'ApplicationUser'. The 'Include(string)' method can only be used with a '.' separated list of navigation property names.
+2019-11-26 23:51:57.3503 INFO Regresa todas las materia de la Base de Datos.
+2019-11-26 23:51:57.5856 INFO Returned all owners from database.
+2019-11-26 23:54:18.1681 INFO Regresa todas las materia de la Base de Datos.
+2019-11-26 23:54:18.3569 INFO Returned all owners from database.
+2019-11-26 23:58:29.2989 INFO Regresa todas las materia de la Base de Datos.
+2019-11-26 23:58:29.5461 INFO Returned all owners from database.

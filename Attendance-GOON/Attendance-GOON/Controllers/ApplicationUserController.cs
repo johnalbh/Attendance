@@ -78,6 +78,7 @@ namespace Attendance_GOON.Controllers
             {
                 var role = await _userManager.GetRolesAsync(user);
                 IdentityOptions _options = new IdentityOptions();
+
                 var tokenDescription = new SecurityTokenDescriptor
                 {
                     Subject = new ClaimsIdentity(new Claim[]

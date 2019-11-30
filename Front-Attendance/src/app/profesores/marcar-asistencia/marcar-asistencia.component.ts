@@ -19,7 +19,6 @@ export class MarcarAsistenciaComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    console.log(this.clase);
     this.getIP();
   }
   public getIP()

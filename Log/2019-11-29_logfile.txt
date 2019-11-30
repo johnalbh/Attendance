@@ -1,0 +1,3 @@
+2019-11-29 22:40:36.2388 ERROR Something went wrong inside GetOwnerById action: Windows logins are not supported in this version of SQL Server.
+2019-11-29 22:40:36.2388 ERROR Something went wrong inside GetOwnerById action: Windows logins are not supported in this version of SQL Server.
+2019-11-29 22:45:38.6855 INFO Returned all owners from database.

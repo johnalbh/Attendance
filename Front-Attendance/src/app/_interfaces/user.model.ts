@@ -7,7 +7,15 @@ export class User {
 }
 
 export class UserProfile {
-    fullName: string;
     email: string;
     userName: string;
+    fechaNacimiento: string;
+    numeroIdentificacion: string;
+    primerApellido: string;
+    primerNombre: string;
+    segundoApellido: string;
+    segundoNombre: string;
+    tipoIdentificacion: string;
+    urlFoto: string;
+    NombreCompleto: string;
 }

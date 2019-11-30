@@ -11,5 +11,7 @@ namespace Entities.Models
     {
         [Column(TypeName = "nvarchar(50)")]
         public string FullName { get; set; }
+
+        public virtual Persona Persona { get; set; }
     }
 }

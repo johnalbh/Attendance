@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entities.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20191020203057_Prueba-Nuevo-Vacio-2")]
-    partial class PruebaNuevoVacio2
+    [Migration("20191127051317_initial-2")]
+    partial class initial2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,6 +42,8 @@ namespace Entities.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool?>("Asistencia");
 
                     b.Property<int>("IdFecha");
 
@@ -76,11 +78,51 @@ namespace Entities.Migrations
                         .HasMaxLength(50)
                         .IsUnicode(false);
 
-                    b.Property<int>("Ordern");
+                    b.Property<int>("Orden");
 
                     b.HasKey("Dominio1", "Valor");
 
                     b.ToTable("Dominio");
+                });
+
+            modelBuilder.Entity("Entities.Models.Funcionalidad", b =>
+                {
+                    b.Property<int>("Id");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.Property<int>("Orden");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .IsUnicode(false);
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Funcionalidad");
+                });
+
+            modelBuilder.Entity("Entities.Models.FuncionalidadRoles", b =>
+                {
+                    b.Property<int>("IdFuncionalidad")
+                        .HasColumnName("idFuncionalidad");
+
+                    b.Property<string>("IdRoles")
+                        .HasColumnName("idRoles")
+                        .HasMaxLength(200);
+
+                    b.HasKey("IdFuncionalidad", "IdRoles");
+
+                    b.ToTable("FuncionalidadRoles");
                 });
 
             modelBuilder.Entity("Entities.Models.Grupo", b =>
@@ -117,8 +159,6 @@ namespace Entities.Migrations
                     b.Property<int>("IdGrupo");
 
                     b.Property<int>("IdHorario");
-
-                    b.Property<bool>("Asistencia");
 
                     b.HasKey("IdGrupo", "IdHorario");
 
@@ -160,6 +200,52 @@ namespace Entities.Migrations
                     b.ToTable("Materia");
                 });
 
+            modelBuilder.Entity("Entities.Models.Parametro", b =>
+                {
+                    b.Property<int>("Codigo");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .IsUnicode(false);
+
+                    b.Property<string>("Valor")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .IsUnicode(false);
+
+                    b.HasKey("Codigo");
+
+                    b.ToTable("Parametro");
+                });
+
+            modelBuilder.Entity("Entities.Models.PeriodoLectivo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("AnioActivo");
+
+                    b.Property<int>("AnioFin");
+
+                    b.Property<int>("AnioInicio");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
+                    b.Property<DateTime>("FechaFinPeriodo")
+                        .HasColumnType("date");
+
+                    b.Property<DateTime>("FechaInicioPeriodo")
+                        .HasColumnType("date");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PeriodoLectivo");
+                });
+
             modelBuilder.Entity("Entities.Models.Persona", b =>
                 {
                     b.Property<string>("TipoIdentificacion")
@@ -171,7 +257,7 @@ namespace Entities.Migrations
                         .IsUnicode(false);
 
                     b.Property<DateTime>("FechaNacimiento")
-                        .HasColumnType("date");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("PrimerApellido")
                         .IsRequired()
@@ -196,7 +282,14 @@ namespace Entities.Migrations
                         .HasMaxLength(100)
                         .IsUnicode(false);
 
+                    b.Property<string>("UserId")
+                        .HasMaxLength(200);
+
                     b.HasKey("TipoIdentificacion", "NumeroIdentificacion");
+
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
 
                     b.ToTable("Persona");
                 });
@@ -412,6 +505,14 @@ namespace Entities.Migrations
                         .HasConstraintName("FK_Clase_GrupoHorario");
                 });
 
+            modelBuilder.Entity("Entities.Models.FuncionalidadRoles", b =>
+                {
+                    b.HasOne("Entities.Models.Funcionalidad", "IdFuncionalidadNavigation")
+                        .WithMany("FuncionalidadRoles")
+                        .HasForeignKey("IdFuncionalidad")
+                        .HasConstraintName("FK_FuncionalidadRoles_Funcionalidad");
+                });
+
             modelBuilder.Entity("Entities.Models.Grupo", b =>
                 {
                     b.HasOne("Entities.Models.Materia", "IdMateriaNavigation")
@@ -436,6 +537,13 @@ namespace Entities.Migrations
                         .WithMany("GrupoHorario")
                         .HasForeignKey("IdHorario")
                         .HasConstraintName("FK_GrupoHorario_Horario");
+                });
+
+            modelBuilder.Entity("Entities.Models.Persona", b =>
+                {
+                    b.HasOne("Entities.Models.ApplicationUser", "User")
+                        .WithOne("Persona")
+                        .HasForeignKey("Entities.Models.Persona", "UserId");
                 });
 
             modelBuilder.Entity("Entities.Models.Profesor", b =>

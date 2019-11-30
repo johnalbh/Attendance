@@ -1,0 +1,85 @@
+2019-11-27 00:26:04.2107 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-27 00:27:24.5332 ERROR Something went wrong inside GetAllOwners action: The entity type 'AspNetUserLogins' requires a primary key to be defined.
+2019-11-27 00:29:47.0375 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-27 00:33:18.7425 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-27 00:33:40.0208 ERROR Something went wrong inside GetAllOwners action: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined.
+2019-11-27 00:34:49.6493 INFO Returned all owners from database.
+2019-11-27 00:40:43.0456 INFO Returned all owners from database.
+2019-11-27 00:43:50.5560 INFO Returned all owners from database.
+2019-11-27 00:45:23.9041 INFO Returned all owners from database.
+2019-11-27 00:46:06.5922 INFO Returned all owners from database.
+2019-11-27 00:47:07.3401 INFO Returned all owners from database.
+2019-11-27 00:47:57.8847 INFO Returned all owners from database.
+2019-11-27 00:53:17.0378 INFO Returned all owners from database.
+2019-11-27 00:54:46.4302 INFO Returned all owners from database.
+2019-11-27 00:56:03.4878 INFO Returned all owners from database.
+2019-11-27 00:56:58.5878 INFO Returned all owners from database.
+2019-11-27 00:59:18.3898 INFO Returned all owners from database.
+2019-11-27 01:05:02.9632 INFO Returned all owners from database.
+2019-11-27 01:05:38.0813 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 01:05:38.3036 INFO Returned all owners from database.
+2019-11-27 01:08:38.8564 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 01:08:39.0568 INFO Returned all owners from database.
+2019-11-27 01:16:04.4514 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 01:16:04.6161 INFO Returned all owners from database.
+2019-11-27 19:28:46.5244 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 19:28:46.8276 INFO Returned all owners from database.
+2019-11-27 19:36:37.8982 INFO Returned all owners from database.
+2019-11-27 19:36:38.1435 ERROR Something went wrong inside GetAllOwners action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> ApplicationUserDTO
+System.Collections.Generic.List`1[[Entities.Models.Profesor, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Entities.DTO.ApplicationUserDTO
+2019-11-27 19:41:17.0101 INFO Returned la persona con el número de identificación: 1022347505
+2019-11-27 19:59:07.4157 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 19:59:07.6114 INFO Returned all owners from database.
+2019-11-27 19:59:52.0113 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 19:59:52.1118 INFO Returned all owners from database.
+2019-11-27 21:07:16.1933 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 21:07:16.2587 INFO Regresa el perfil del usuario.
+2019-11-27 21:07:16.4612 INFO Returned all owners from database.
+2019-11-27 21:10:03.1945 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 21:10:03.1945 INFO Regresa el perfil del usuario.
+2019-11-27 21:10:03.4678 INFO Returned all owners from database.
+2019-11-27 21:11:53.1158 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 21:11:53.1435 INFO Regresa el perfil del usuario.
+2019-11-27 21:11:53.4012 INFO Returned all owners from database.
+2019-11-27 21:14:45.9610 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 21:14:45.9860 INFO Regresa el perfil del usuario.
+2019-11-27 21:14:46.1716 INFO Returned all owners from database.
+2019-11-27 22:15:26.1341 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:15:26.7438 INFO Returned all owners from database.
+2019-11-27 22:15:28.3132 INFO Regresa el perfil del usuario.
+2019-11-27 22:18:54.0916 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:18:54.0916 INFO Regresa el perfil del usuario.
+2019-11-27 22:18:54.2931 INFO Returned all owners from database.
+2019-11-27 22:40:58.3667 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:40:58.4476 INFO Regresa el perfil del usuario.
+2019-11-27 22:40:58.5931 INFO Returned all owners from database.
+2019-11-27 22:47:12.7643 INFO Returned all owners from database.
+2019-11-27 22:47:12.7643 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:51:15.9668 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:51:16.0158 INFO Returned all owners from database.
+2019-11-27 22:51:16.1299 INFO Regresa el perfil del usuario.
+2019-11-27 22:51:53.3922 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 22:51:53.3922 INFO Regresa el perfil del usuario.
+2019-11-27 22:51:53.4775 INFO Returned all owners from database.
+2019-11-27 23:01:20.6349 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 23:01:20.6696 INFO Returned all owners from database.
+2019-11-27 23:01:46.3625 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 23:01:46.3675 INFO Returned all owners from database.
+2019-11-27 23:01:46.4615 INFO Regresa el perfil del usuario.
+2019-11-27 23:02:35.4671 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 23:02:35.5001 INFO Returned all owners from database.
+2019-11-27 23:02:35.5131 INFO Regresa el perfil del usuario.
+2019-11-27 23:02:37.2169 INFO Returned all owners from database.
+2019-11-27 23:04:38.6409 INFO Regresa el perfil del usuario.
+2019-11-27 23:04:38.7037 INFO Returned all owners from database.
+2019-11-27 23:06:23.7555 INFO Regresa el perfil del usuario.
+2019-11-27 23:06:23.7832 INFO Returned all owners from database.
+2019-11-27 23:08:31.0983 INFO Returned all owners from database.
+2019-11-27 23:08:31.1388 INFO Regresa el perfil del usuario.
+2019-11-27 23:08:31.1388 INFO Regresa todas las materia de la Base de Datos.
+2019-11-27 23:08:36.7629 INFO Returned all owners from database.
+2019-11-27 23:08:51.5456 INFO Returned all owners from database.
+2019-11-27 23:08:54.2530 INFO Regresa todas las materia de la Base de Datos.

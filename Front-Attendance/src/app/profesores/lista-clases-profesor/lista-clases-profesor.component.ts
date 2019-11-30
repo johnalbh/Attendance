@@ -4,6 +4,7 @@ import { ErrorHandlerService } from 'src/app/shared/services/error-handler.servi
 import { OnlyClase } from 'src/app/_interfaces/clases.models';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { MarcarAsistenciaComponent } from '../marcar-asistencia/marcar-asistencia.component';
+import { UserProfile } from 'src/app/_interfaces/user.model';
 
 @Component({
   selector: 'app-lista-clases-profesor',
@@ -22,11 +23,13 @@ export class ListaClasesProfesorComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.getAllProfesores();
+    let Usuario: UserProfile = JSON.parse(localStorage.getItem('personaAttendance'));
+    this.getAllProfesores(Usuario.tipoIdentificacion, Usuario.numeroIdentificacion);
+
   }
-  public getAllProfesores(){
-    let apiAddress: string = 'api/clases/cc/1022347505';
-    this.repository.getData(apiAddress)
+  public getAllProfesores(tipoIdentificacion: string, numeroIdentificacion: string){
+    let apiAddress: string = 'api/clases/';
+    this.repository.getData(apiAddress + tipoIdentificacion + '/' + numeroIdentificacion)
     .subscribe(res => {
       this.clases = res as OnlyClase[];
 

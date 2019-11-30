@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.DTO.Persona;
 
 namespace Contracts
 {
@@ -10,6 +11,7 @@ namespace Contracts
     {
         Task<IEnumerable<Persona>> GetAllOwnersAsync();
         Task<Persona> GetOwnerByIdAsync(Guid ownerId);
+        Task<Persona> GetPersonaByUserId(string userId);
 
     }
 }

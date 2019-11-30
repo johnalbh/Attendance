@@ -9,7 +9,19 @@ import { UserProfile } from 'src/app/_interfaces/user.model';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  userDetalle: UserProfile = {    fullName : 'null-1',  email: 'null-2',  userName: 'null-3' };
+  userDetalle: UserProfile = {
+    NombreCompleto : 'null-1',
+    email: 'null-1',
+    userName: 'null-1',
+    tipoIdentificacion : 'null-1',
+    numeroIdentificacion: 'null-1',
+    primerApellido: 'null-1',
+    segundoApellido: 'null-1',
+    primerNombre: 'null-1',
+    segundoNombre: 'null-1',
+    fechaNacimiento: 'null-1',
+    urlFoto: 'null-1'
+  };
   private isOpen = '';
   constructor(private router: Router, private service: UserService) { }
 
@@ -17,6 +29,9 @@ export class HeaderComponent implements OnInit {
     this.service.getPerfilUsuario().subscribe(
       res => {
         this.userDetalle = res;
+        if (this.userDetalle !== null ){
+          localStorage.setItem('personaAttendance', JSON.stringify(this.userDetalle));
+        }
       },
       err => {
         console.log(err);
@@ -25,12 +40,23 @@ export class HeaderComponent implements OnInit {
   }
   cerrarSesion(){
     localStorage.removeItem('token');
+    localStorage.removeItem('personaAttendance');
     this.router.navigate(['/user/login']);
-    this.userDetalle = {    fullName : '',  email: '',  userName: '' };
+    this.userDetalle = {
+      NombreCompleto : '',
+      email: '', 
+      userName: '',
+      tipoIdentificacion : '',
+      numeroIdentificacion: '',
+      primerApellido: '',
+      segundoApellido: '',
+      primerNombre: '',
+      segundoNombre: '',
+      fechaNacimiento: '',
+      urlFoto: ''
+     };
   }
 
- 
-  
   toggled(event) {
     if (event) {
         console.log('is open');

@@ -53,6 +53,8 @@ namespace Attendance_GOON.Extensiones
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores <RepositoryContext>();
             var key = Encoding.UTF8.GetBytes(config["ApplicationSetting:JWTSecret"].ToString());
+           
+            
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
